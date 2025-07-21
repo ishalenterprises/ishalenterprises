@@ -37,26 +37,45 @@ const About = () => {
           </div> */}
         </div>
 
-        <div className='w-full md:w-1/2 h-full flex gap-3 items-center justify-end' loading='lazy'>
+        <div className='w-full md:w-1/2 h-full flex gap-3 items-center justify-end'>
 
-        <div className='flex flex-col gap-4'>
-          <img className='w-full md:w-[25rem] lg:w-[28.5rem]' src='/about/about-1.png' />
+  <div className='flex flex-col gap-4'>
+    
+    {/* Top Image */}
+    <img 
+      className='w-full md:w-[25rem] lg:w-[28.5rem]' 
+      src='/about/1.jpeg' 
+      alt='Telecom Deployment' 
+      loading='lazy' 
+      width={456}
+      height={300}
+    />
 
-          <div className='flex gap-2'>
-            <div className='w-1/2'>
-              <img className='md:w-52 lg:w-56' src='/about-towers.png' />
-            </div>
-            
-            <div className='w-1/2'>
-              <img className='md:w-52 lg:w-56' src='/about-maintain.png' />
-            </div>
+    {/* Two Side-by-Side Images */}
+    <div className='flex gap-2'>
+      <div className='w-1/2'>
+        <img 
+          className='md:w-52 lg:w-56' 
+          src='/about/2.jpeg' 
+          alt='Towers' 
+          loading='lazy' 
+          width={224}
+          height={150}
+        />
+      </div>
 
-          </div>
+      <div className='w-1/2'>
+        <img 
+          className='md:w-52 lg:w-56' 
+          src='/about/3.jpeg' 
+          alt='Maintenance' 
+          loading='lazy' 
+          width={224}
+          height={150}
+        />
+      </div>
+    </div>
 
-          <div>
-
-          </div>
-            
             </div>
         </div>
       </div>

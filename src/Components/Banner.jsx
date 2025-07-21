@@ -20,19 +20,19 @@ const Banner = () => {
 
   const slides = [
     {
-      src: isMobile ? "/banner/8-mobile.png" : "/banner/8.png",
+      src: isMobile ? "/banner/mobile-1.jpeg" : "/banner/1.jpeg",
       headline: "More Than Just Construction — We Build Your Dreams Into Reality",
       subline:
         "Whether renovating a cherished home or starting a new project, we listen to your needs, guide you through every detail, and deliver results that reflect your lifestyle, values, and goals.",
     },
     {
-      src: isMobile ? "/banner/9-mobile.png" : "/banner/9.png",
+      src: isMobile ? "/banner/mobile-2.jpeg" : "/banner/2.jpeg",
       headline: "Over a Decade of Empowering Pakistan’s Telecommunication Landscape",
       subline:
         "Since 2010, we’ve been at the forefront of building resilient telecom networks across Sindh, Balochistan, and beyond. Our partnerships with major telcos and expertise in tower deployment and fiber optics have made us a trusted name in connectivity and innovation.",
     },
     {
-      src: isMobile ? "/banner/10-mobile.png" : "/banner/10.png",
+      src: isMobile ? "/banner/mobile-3.jpeg" : "/banner/3.jpeg",
       headline: "Keeping Networks Alive with Reliable Maintenance Solutions",
       subline:
         "From routine checks to emergency support, our expert teams ensure uninterrupted network performance through proactive, efficient, and scalable telecom maintenance services.",
