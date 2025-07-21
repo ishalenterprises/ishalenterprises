@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import MenuBar from './MenuBar';
 import { Link } from 'react-router-dom';
+import { IoMenu } from "react-icons/io5";
+
 
 const Header = () => {
 
@@ -62,7 +64,7 @@ const Header = () => {
 
 
                     <ul className='flex md:hidden'>
-                        <img onClick={showMenu} className='w-5 h-5' src='/icons8-menu-50.png' />
+                        <IoMenu className='text-3xl' onClick={showMenu}/>
                     </ul>
 
                 </div>
