@@ -27,7 +27,7 @@ const Banner = () => {
     },
     {
       src: isMobile ? "/banner/mobile-2.jpeg" : "/banner/2.jpeg",
-      headline: "Over a Decade of Empowering Pakistan’s Telecommunication Landscape",
+      headline: "From Towers to Fiber — We Build What Connects Pakistan",
       subline:
         "Since 2010, we’ve been at the forefront of building resilient telecom networks across Sindh, Balochistan, and beyond. Our partnerships with major telcos and expertise in tower deployment and fiber optics have made us a trusted name in connectivity and innovation.",
     },
@@ -40,7 +40,7 @@ const Banner = () => {
   ];
 
   return (
-    <div className="w-full h-[90vh] relative">
+    <div className="w-full h-[80vh] md:h-[90vh] relative">
       <Swiper
         autoplay={{
           delay: 6000,
@@ -51,7 +51,7 @@ const Banner = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-[85vh] flex items-center justify-center">
+            <div className="relative w-full h-[75vh] md:h-[85vh] flex items-center justify-center">
               {/* Image */}
               <img
                 src={slide.src}
