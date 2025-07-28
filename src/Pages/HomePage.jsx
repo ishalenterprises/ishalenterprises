@@ -8,18 +8,24 @@ import Services from '../Components/Services'
 import IndustryFocus from '../Components/IndustryFocus'
 import PotfolioAndGallery from '../Components/PotfolioAndGallery'
 import Partners from '../Components/Partners'
+import BannerTwo from '../Components/BannerTwo'
+import Statistics from '../Components/Statistics'
+import Achievements from '../Components/Achievements'
 
 const HomePage = () => {
   return (
     <>
     <Header />
     <Banner />
+    {/* <BannerTwo /> */}
     <About />
     <Services />
-    <IndustryFocus />
+    <WhyMe />
+    {/* <IndustryFocus /> */}
     <PotfolioAndGallery />
+    <Achievements />
+    <Statistics />
     <Partners />
-    {/* <WhyMe /> */}
     <Footer />
     </>
   )

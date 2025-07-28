@@ -4,7 +4,12 @@ const Services = () => {
     return (
         <>
         <div className='w-full flex flex-col my-4 md:my-6 px-4 sm:px-3 md:px-8 items-center'>
-            <h1 className='font-bold text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold text-center mb-4'>Our Services</h1>
+            <div className='flex gap-2 w-full'>
+            <hr class="h-px my-5 sm:my-6 md:my-5 lg:my-6 bg-[rgb(54,137,185)] border-1 w-1/2 md:w-full text-[rgb(54,137,185)]" />
+            <h1 className='font-bold text-2xl w-full sm:text-4xl md:text-3xl lg:text-4xl text-bold text-center pb-8 text-[rgb(54,137,185)]'>Our Services</h1>
+            <hr class="h-px my-5 sm:my-6 md:my-5 lg:my-6 bg-[rgb(54,137,185)] border-1 w-1/2 md:w-full text-[rgb(54,137,185)]" />
+
+            </div>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:grid-col-3 gap-8 md:gap-6'>
                 <div className='flex flex-col items-center bg-gray-100 rounded-lg py-2 md:py-4 px-2 md:px-4 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>

@@ -38,7 +38,24 @@ const Footer = () => {
                         <div className='flex  lg:flex-col text-xs lg:text-xl text-gray-600 text-start gap-4'>
                             <div className='flex gap-4'>
                                 <FaHome />
+                                <div className='flex flex-col gap-2'>
+                                    <div className='flex flex-col'>
+                                        <strong className='text-sm'>Head Office:</strong>
+                                <p className='text-sm '>Flat # 202, Chapel Garden, Block-M, Abul Hussain Isphani Road</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                            <div className='flex gap-4'>
+                                <FaHome />
+                                <div className='flex flex-col gap-2'>
+                                    <div className='flex flex-col'>
+                                        <strong className='text-sm'>Branch Office:</strong>
                                 <p className='text-sm '>Office # C-450, Second Floor, Block-11, Gulistan-e-Johar, Karachi</p>
+                                    </div>
+
+                                </div>
                             </div>
 
                             <div className='flex gap-4'>
@@ -104,7 +121,20 @@ const Footer = () => {
 
                                 <div className='flex gap-2'>
                                     <FaHome />
+                                    <div className='flex flex-col'>
+
+                                    <strong className='text-xs'>Head Office:</strong>
+                                    <p className='text-xs w-2/3'>Flat # 202, Chapel Garden, Block-M, Abul Hussain Isphani Road</p>
+                                    </div>
+                                </div>
+
+                                <div className='flex gap-2'>
+                                    <FaHome />
+                                    <div className='flex flex-col'>
+
+                                    <strong className='text-xs'>Branch Office:</strong>
                                     <p className='text-xs w-2/3'>Office # C-450, Second Floor, Block-11, Gulistan-e-Johar, Karachi</p>
+                                    </div>
                                 </div>
                                 
                                 <div className='flex gap-2'>

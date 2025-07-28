@@ -26,13 +26,13 @@ const Header = () => {
                             alt='Logo'
                             className='w-28'
                         /> */}
-                        <p className=''>Ishaal Enterprises</p>
+                        <p className='text-[rgb(54,137,185)]'>Ishaal Enterprises</p>
                     </Link>
                 </div>
 
 
                 <div className='flex w-1/2 items-center justify-end'>
-                    <ul className='hidden md:flex text-lg gap-6'>
+                    <ul className='hidden md:flex text-[rgb(54,137,185)] text-lg gap-6'>
                         <li>
                             <Link to="/">Home</Link>
                         </li>

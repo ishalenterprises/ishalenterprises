@@ -12,7 +12,7 @@ const About = () => {
     <div className='w-full min-h-screen flex flex-col md:flex-row pb-4 md:py-6 lg:pb-8 px-2 md:px-6 lg:px-8'>
       <div className='w-full text-black h-full flex flex-col gap-4 md:flex-row px-2 md:px-6 lg:px-8 xl:px-10'>
         <div className='w-full md:w-1/2 h-full flex flex-col'>
-          <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1'>About Us</h1>
+          <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>About Us</h1>
 
           <p className='pt-2 lg:text-lg'><strong>Ishaal Enterprises,</strong> founded in January 2010, is a trusted name in telecom infrastructure, construction, 
             and maintenance across Pakistan. We specialize in deploying telecom towers, FTTS longhaul networks, and tower-sharing 
