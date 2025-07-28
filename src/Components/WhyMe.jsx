@@ -30,7 +30,7 @@ const WhyMe = () => {
           {/* Box 2 */}
           <div className='relative flex flex-col w-full md:w-[13rem] lg:w-[15rem] xl:w-[18rem] mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
             <div className="absolute -top-3 -left-3 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-lg font-semibold">2</div>
-            <img src='/focus-icons/icons8-improve-64.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
+            <img src='/focus-icons/icons8-improve-96.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
             <h1 className='hidden md:flex sm:text-xs md:text-sm lg:text-lg font-medium text-center pt-2'>Improving Governance & Eliminating Theft</h1>
             <h1 className='text-lg font-medium pt-1 md:hidden text-center'>Improving Governance & Eliminating Theft</h1>
             <p className='text-center md:text-xs lg:hidden'>Improving governance and eliminating theft by enforcing transparent processes, strict monitoring, and accountability at all levels.</p>
@@ -40,7 +40,7 @@ const WhyMe = () => {
           {/* Box 3 */}
           <div className='relative flex flex-col w-full md:w-[13rem] lg:w-[15rem] xl:w-[18rem] mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
             <div className="absolute -top-3 -left-3 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-lg font-semibold">3</div>
-            <img src='/focus-icons/icons8-teamwork-64.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
+            <img src='/focus-icons/icons8-teamwork-96.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
             <h1 className='hidden md:flex sm:text-xs md:text-sm lg:text-lg font-medium text-center pt-2'>Solving Critical Telecom Problems with Teamwork</h1>
             <h1 className='text-lg font-medium pt-1 md:hidden text-center'>Solving Critical Telecom Problems with Teamwork</h1>
             <p className='text-center md:text-xs lg:hidden'>Solving critical telecom problems through effective teamwork, collaboration, and timely decision-making.</p>
@@ -50,11 +50,11 @@ const WhyMe = () => {
           {/* Box 4 */}
           <div className='relative flex flex-col w-full md:w-[13rem] lg:w-[15rem] xl:w-[18rem] mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
             <div className="absolute -top-3 -left-3 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-lg font-semibold">4</div>
-            <img src='/focus-icons/icons8-support-64.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
+            <img src='/focus-icons/icons8-support-96.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
             <h1 className='hidden md:flex sm:text-xs md:text-sm lg:text-lg font-medium text-center pt-2'>Services offered by 24/7 with Quality Work</h1>
             <h1 className='text-lg font-medium pt-1 md:hidden text-center'>Services offered by 24/7 with Quality Work</h1>
-            <p className='text-center md:text-xs lg:hidden'>Offering 24/7 services with a commitment to quality work, reliability, and customer satisfaction.</p>
-            <p className='hidden lg:block text-center text-md'>Offering 24/7 services with a commitment to quality work, reliability, and customer satisfaction.</p>
+            <p className='text-center md:text-xs lg:hidden text-center'>Offering 24/7 services with a commitment to quality work, reliability, and customer satisfaction.</p>
+            <p className='hidden lg:block text-center text-md text-center'>Offering 24/7 services with a commitment to quality work, reliability, and customer satisfaction.</p>
           </div>
         </div>
 
@@ -65,21 +65,21 @@ const WhyMe = () => {
             {/* Box 1 */}
             <div className='relative flex flex-col w-1/2 mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
               <div className="absolute -top-3 -left-3 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-base font-semibold">1</div>
-              <GrDocumentPerformance className='md:w-14 xl:w-16 md:h-10 xl:h-12' />
-              <h1 className='hidden md:flex md:text-lg font-medium'>Fast Performance</h1>
-              <h1 className='text-lg font-medium pt-1 md:hidden'>Fast Performance</h1>
-              <p className='text-center md:text-sm lg:hidden'>Speed matters — I optimize every part of your website to load quickly and run efficiently.</p>
-              <p className='hidden lg:block text-center text-md'>Speed matters — I optimize every part of your website to load quickly and run efficiently.</p>
+              <img src='/focus-icons/icons8-guarantee-96.png' className='w-[6rem] sm:w-[5rem] md:w-14 xl:w-16 h-[6rem] sm:h-[5rem] md:h-14 xl:h-16' />
+              <h1 className='hidden md:flex md:text-lg font-medium text-center'>Ensuring All Sites are HSE Compliant</h1>
+              <h1 className='text-lg font-medium pt-1 md:hidden text-center'>Ensuring All Sites are HSE Compliant</h1>
+              <p className='text-center md:text-sm lg:hidden text-center'>Ensuring all sites are HSE compliant by following strict health, safety, and environmental standards at every stage of work.</p>
+              <p className='hidden lg:block text-center text-md text-center'>Ensuring all sites are HSE compliant by following strict health, safety, and environmental standards at every stage of work.</p>
             </div>
 
             {/* Box 2 */}
             <div className='relative flex flex-col w-1/2 mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
               <div className="absolute -top-3 -left-3 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-sm font-semibold">2</div>
-              <FaLightbulb className='md:w-14 xl:w-16 md:h-10 xl:h-12' />
-              <h1 className='hidden md:flex md:text-lg font-medium'>Problem Solver</h1>
-              <h1 className='text-lg font-medium pt-1 md:hidden'>Problem Solver</h1>
-              <p className='text-center md:text-sm lg:hidden'>I don’t just write code — I solve real-world problems with practical and innovative solutions tailored to your needs.</p>
-              <p className='hidden lg:block text-center text-md'>I don’t just write code — I solve real-world problems with practical and innovative solutions tailored to your needs.</p>
+              <img src='/focus-icons/icons8-improve-96.png' className='w-[6rem] sm:w-[5rem] md:w-14 xl:w-16 h-[6rem] sm:h-[5rem] md:h-14 xl:h-16' />
+              <h1 className='hidden md:flex md:text-lg font-medium text-center'>Improving Governance & Eliminating Theft</h1>
+              <h1 className='text-lg font-medium pt-1 md:hidden text-center'>Improving Governance & Eliminating Theft</h1>
+              <p className='text-center md:text-sm lg:hidden text-center'>Improving governance and eliminating theft by enforcing transparent processes, strict monitoring, and accountability at all levels.</p>
+              <p className='hidden lg:block text-center text-md text-center'>Improving governance and eliminating theft by enforcing transparent processes, strict monitoring, and accountability at all levels.</p>
             </div>
           </div>
 
@@ -87,21 +87,21 @@ const WhyMe = () => {
             {/* Box 3 */}
             <div className='relative flex flex-col w-1/2 mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
               <div className="absolute -top-3 -left-3 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-sm font-semibold">3</div>
-              <FaPeopleArrows className='md:w-14 xl:w-16 md:h-10 xl:h-12' />
-              <h1 className='hidden md:flex md:text-lg font-medium'>Client-Focused Approach</h1>
-              <h1 className='text-lg font-medium pt-1 md:hidden'>Client-Focused Approach</h1>
-              <p className='text-center md:text-sm lg:hidden'>Your satisfaction is my priority. I value clear communication and work closely with you to bring your vision to life.</p>
-              <p className='hidden lg:block text-center text-md'>Your satisfaction is my priority. I value clear communication and work closely with you to bring your vision to life.</p>
+              <img src='/focus-icons/icons8-teamwork-96.png' className='w-[6rem] sm:w-[5rem] md:w-14 xl:w-16 h-[6rem] sm:h-[5rem] md:h-14 xl:h-16' />
+              <h1 className='hidden md:flex md:text-lg font-medium text-center'>Solving Critical Telecom Problems with Teamwork</h1>
+              <h1 className='text-lg font-medium pt-1 md:hidden text-center'>Solving Critical Telecom Problems with Teamwork</h1>
+              <p className='text-center md:text-sm lg:hidden text-center'>Solving critical telecom problems through effective teamwork, collaboration, and timely decision-making.</p>
+              <p className='hidden lg:block text-center text-md text-center'>Solving critical telecom problems through effective teamwork, collaboration, and timely decision-making.</p>
             </div>
 
             {/* Box 4 */}
             <div className='relative flex flex-col w-1/2 mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
               <div className="absolute -top-3 -left-3 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-sm font-semibold">4</div>
-              <img src='/focus-icons/icons8-teamwork-50.png' className='w-[6rem] sm:w-[5rem] md:w-14 xl:w-16 h-[6rem] sm:h-[5rem] md:h-14 xl:h-16' />
-              <h1 className='hidden md:flex md:text-lg font-medium'>24/7 Support</h1>
-              <h1 className='text-lg font-medium pt-1 md:hidden'>Easy Financing</h1>
-              <p className='text-center md:text-sm lg:hidden'>I’m available around the clock to help with updates, fixes, or any questions — your peace of mind matters.</p>
-              <p className='hidden lg:block text-center text-md'>I’m available around the clock to help with updates, fixes, or any questions — your peace of mind matters.</p>
+              <img src='/focus-icons/icons8-support-96.png' className='w-[6rem] sm:w-[5rem] md:w-14 xl:w-16 h-[6rem] sm:h-[5rem] md:h-14 xl:h-16' />
+              <h1 className='hidden md:flex md:text-lg font-medium text-center'>Services offered by 24/7 with Quality Work</h1>
+              <h1 className='text-lg font-medium pt-1 md:hidden text-center'>Services offered by 24/7 with Quality Work</h1>
+              <p className='text-center md:text-sm lg:hidden text-center'>Offering 24/7 services with a commitment to quality work, reliability, and customer satisfaction.</p>
+              <p className='hidden lg:block text-center text-md text-center'>Offering 24/7 services with a commitment to quality work, reliability, and customer satisfaction.</p>
             </div>
           </div>
         </div>
