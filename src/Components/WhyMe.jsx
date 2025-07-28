@@ -20,7 +20,7 @@ const WhyMe = () => {
           {/* Box 1 */}
           <div className='relative flex flex-col w-full xl:w-[18rem] mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
             <div className="absolute -top-4 -left-4 bg-[rgb(54,137,185)] text-white w-12 h-12 flex items-center justify-center rounded-full text-lg font-semibold">1</div>
-            <img src='/focus-icons/icons8-guarantee-64.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
+            <img src='/focus-icons/icons8-guarantee-96.png' className='w-[4rem] md:w-8 lg:w-16 h-[4rem] md:h-8 lg:h-16' />
             <h1 className='hidden md:flex sm:text-xs md:text-sm text-center lg:text-lg font-medium pt-2'>Ensuring All Sites are HSE Compliant</h1>
             <h1 className='text-lg font-medium pt-1 md:hidden'>Ensuring All Sites are HSE Compliant</h1>
             <p className='text-center md:text-xs lg:hidden text-center'>Ensuring all sites are HSE compliant by following strict health, safety, and environmental standards at every stage of work.</p>

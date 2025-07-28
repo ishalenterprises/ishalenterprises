@@ -34,19 +34,19 @@ const Partners = () => {
                 <div className='w-full grid mt-4 gap-y-8 lg:mt-6 grid-cols-2 py-4 lg:grid-cols-4 items-center justify-center'>
 
                 <div className='flex items-center justify-center'>
-                    <img className='w-[7rem] md:w-[10rem]' src='/clients/moblink.png' />
+                    <img className='w-[5rem] md:w-[10rem]' src='/clients/moblink.png' />
                 </div>
 
                 <div className='flex items-center justify-center'>
-                    <img className='w-[5rem] md:w-[8rem]' src='/clients/huawei.png' />
+                    <img className='w-[4rem] md:w-[8rem]' src='/clients/huawei.png' />
                 </div>
 
                 <div className='flex items-center justify-center'>
-                    <img className='w-[7rem] md:w-[10rem]' src='/clients/iba-sukkur.png' />
+                    <img className='w-[5rem] md:w-[10rem]' src='/clients/iba-sukkur.png' />
                 </div>
 
                 <div className='flex items-center justify-center'>
-                    <img className='w-[5rem] md:w-[8rem]' src='/clients/pphi.png' />
+                    <img className='w-[4rem] md:w-[8rem]' src='/clients/pphi.png' />
                 </div>
 
             </div>
