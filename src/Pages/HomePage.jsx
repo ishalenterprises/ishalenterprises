@@ -11,6 +11,8 @@ import Partners from '../Components/Partners'
 import BannerTwo from '../Components/BannerTwo'
 import Statistics from '../Components/Statistics'
 import Achievements from '../Components/Achievements'
+import FirstVideo from '../Components/FirstVideo'
+import SecondVideo from '../Components/SecondVideo'
 
 const HomePage = () => {
   return (
@@ -23,7 +25,9 @@ const HomePage = () => {
     <WhyMe />
     {/* <IndustryFocus /> */}
     <PotfolioAndGallery />
+    <FirstVideo />
     <Achievements />
+    {/* <SecondVideo /> */}
     <Statistics />
     <Partners />
     <Footer />
