@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoArrowBackCircle } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const MenuBar = ({ hideMenu }) => {
 
@@ -14,8 +15,12 @@ const MenuBar = ({ hideMenu }) => {
           <div className='p-4'>
             <IoArrowBackCircle className='pb-4 text-5xl pr-5' onClick={hideMenu}/>
             <ul className='flex flex-col gap-4'>
-              <li className='pl-1'>Home</li>
-              <li className='pl-1'>About</li>
+              <li className='pl-1'>
+                <Link to="/">Home</Link>
+              </li>
+              <li className='pl-1'>
+                <Link to="/about">About</Link>
+              </li>
               <li className='pl-1'>Contact</li>
               <li>
                 <select

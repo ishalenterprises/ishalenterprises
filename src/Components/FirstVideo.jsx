@@ -14,7 +14,7 @@ const FirstVideo = () => {
         </div>
 
         {/* Video Inside Phone Frame */}
-        <div className="h-[400px] md:w-[300px] md:h-[520px] lg:w-[300px] lg:h-[520px] bg-black rounded-[2rem] p-2 shadow-2xl border-4 border-gray-700 overflow-hidden relative">
+        <div className="h-[500px] md:w-[300px] md:h-[520px] lg:w-[300px] lg:h-[520px] bg-black rounded-[2rem] p-2 shadow-2xl border-4 border-gray-700 overflow-hidden relative">
           <video
             src="/videos/first-vid.mp4" // 📌 Replace with your actual video path
             autoPlay
