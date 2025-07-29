@@ -14,7 +14,7 @@ const AboutPage = () => {
 
         <>
             <Header />
-            <div className='w-full min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-6 md:px-8 lg:px-8 items-center justify-center'>
+            <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-6 md:px-8 lg:px-8 items-center justify-center'>
 
                 <div className='w-full md:w-4/5 h-full flex flex-col'>
                     <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>About Us</h1>
@@ -50,7 +50,7 @@ const AboutPage = () => {
             </div>
 
 
-            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pb-4 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
+            <div className='w-full md:min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
 
                 <div className='w-full max-h-full justify-center flex flex-col'>
                     <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>Our Mission</h1>
@@ -78,13 +78,13 @@ const AboutPage = () => {
                 </div>
             </div>
 
-            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 pt-2 md:pt-0 md:gap-10 pb-4 lg:pb-8 px-2 md:px-6 md:px-20 lg:px-40 justify-center items-center'>
+            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 pt-10 md:pt-0 md:gap-10 pb-4 lg:pb-8 px-2 md:px-6 md:px-20 lg:px-40 justify-center items-center'>
 
-                <div className='w-full h-full flex gap-3 items-center justify-start'>
+                <div className='w-full flex gap-3 items-center justify-start'>
 
 
                     <img
-                        className='md:w-full lg:w-4/5'
+                        className='w-full md:w-full lg:w-4/5'
                         src='/about/vision.jpeg'
                         alt='Telecom Deployment'
                         loading='lazy'
