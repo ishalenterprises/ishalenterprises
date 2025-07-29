@@ -50,7 +50,7 @@ const AboutPage = () => {
             </div>
 
 
-            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pb-4 lg:pb-8 px-2 md:px-20 lg:px-40'>
+            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pb-4 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
 
                 <div className='w-full max-h-full justify-center flex flex-col'>
                     <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>Our Mission</h1>
@@ -78,7 +78,7 @@ const AboutPage = () => {
                 </div>
             </div>
 
-            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 pt-6 md:pt-0 md:gap-10 pb-4 lg:pb-8 px-2 md:px-6 md:px-20 lg:px-40 justify-center items-center'>
+            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 pt-2 md:pt-0 md:gap-10 pb-4 lg:pb-8 px-2 md:px-6 md:px-20 lg:px-40 justify-center items-center'>
 
                 <div className='w-full h-full flex gap-3 items-center justify-start'>
 
@@ -92,7 +92,7 @@ const AboutPage = () => {
                 </div>
 
                 <div className='w-full h-full flex flex-col items-end'>
-                    <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>Our Vission</h1>
+                    <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>Our Vision</h1>
 
                     <p className='pt-2 text-xl md:text-xl lg:text-2xl text-end'>We take great pride in being
                         able to offer our Customers our
