@@ -19,7 +19,7 @@ const MaintanenceWork = () => {
             <img className='w-full h-full object-cover' src='/services-page/maintanenc.jpeg' />
             </div>
 
-            <div className='inset-0 z-30 bg-black/80 absolute'></div>
+            <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
                 <h1 className='text-2xl text-center sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(54,137,185)]'>Maintanence Work</h1>
