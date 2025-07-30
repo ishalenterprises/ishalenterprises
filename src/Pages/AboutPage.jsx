@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer'
+import Statistics from '../Components/Statistics';
 
 
 const AboutPage = () => {
@@ -14,25 +15,51 @@ const AboutPage = () => {
 
         <>
             <Header />
-            <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-6 md:px-8 lg:px-8 items-center justify-center'>
+            <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-4 md:px-6 md:px-8 lg:px-8 items-center justify-center'>
 
                 <div className='w-full md:w-4/5 h-full flex flex-col'>
                     <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>About Us</h1>
 
-                    <p className='pt-2 text-lg md:text-lg'><strong>Ishaal Enterprises,</strong> founded in January 2010, is a trusted name in telecom infrastructure, construction,
-                        and maintenance across Pakistan. We specialize in deploying telecom towers, FTTS longhaul networks, and tower-sharing
-                        solutions that reduce redundancy and environmental impact.
+                    <p className='pt-2 text-sm md:text-base text-gray-600'><strong>Ishaal Enterprises,</strong> was founded in Jan 2010, We commenced operations in 2010 and did multiples sites 
+while in January 2021 upon signing with one of Pakistan’s largest telcos for deploying telecom towers, 
+alongside the Sanghar under the NOKIA USF project. At the same time, we acquired CMPAK 
+longhaul FTTS South region sites including Sindh & Balochistan, marking a significant milestone in 
+our journey
                     </p>
 
-                    <p className='pt-2 text-lg lg:text-lg'>
-                        Our milestone partnership in 2021 with a major telco under the NOKIA USF project marked a turning point in our journey,
-                        expanding our reach across Sindh and Balochistan. Today, with <strong>over 250+ towers</strong> and <strong>700+ FTTS sites</strong>, we serve regions from 
-                        <strong> Chitral to Karachi</strong>, including challenging terrains like <strong>Khuzdar, Jamshoro, Nooriabad, and Tharparkar.</strong>
+                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
+                        Ishaal Enterprises is a trusted name in the construction, renovation, and telecom maintenance 
+industry. We specialize in high-quality building solutions, structural renovations, and comprehensive 
+telecom infrastructure maintenance. With a strong commitment to excellence, safety, and efficiency, 
+our skilled team ensures timely project execution while maintaining the highest industry standards. At 
+Ishaal Enterprises, we take pride in delivering innovative solutions tailored to meet our clients' specific 
+needs, fostering long-term partnerships based on reliability and trus
                     </p>
 
-                    <p className='pt-2 text-lg lg:text-lg'>
-                        At Ishaal Enterprises, we’re committed to delivering high-quality, safe, and efficient solutions that make connectivity more
-                        accessible and affordable for all.
+                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
+                        Our core activities involve constructing, and managing telecom infrastructure networks that enable 
+connectivity across the Country.We did also multiples Tower-sharing sites which helps optimize the 
+tower footprint in the Country by preventing tower proliferation, removing parallel capacities and 
+excessive network redundancies, and reducing the carbon footprint that results from operating a 
+higher number of towers.
+                    </p>
+                    
+                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
+                       Our purpose remains to make connectivity more accessible and affordable for all. By doing our bit to 
+build a truly connected world, we believe that we will help ensure everyone will have equal access and 
+opportunities to improve their lives — irrespective of wealth, gender, race, or any other factor.
+                    </p>
+                    
+                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
+                       Ishaal Enterprises spreading there services  from Chitral in the North to Karachi in the South, covering 
+some of the most complex and security-challenged terrains including khuzdar,Jamshoro,Nooriabad
+ and Tharparkar.
+                    </p>
+                    
+                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
+                       Today, Ishaal Enterprises the best vendor of towerco in Pakistan with over 250 plus towers &  FTTS 
+long haul more than 700+ Sites.
+
                     </p>
 
                 </div>
@@ -53,9 +80,9 @@ const AboutPage = () => {
             <div className='w-full md:min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
 
                 <div className='w-full max-h-full justify-center flex flex-col'>
-                    <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>Our Mission</h1>
+                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pb-1 text-[rgb(54,137,185)]'>Our Mission</h1>
 
-                    <p className='pt-2 text-xl md:text-xl lg:text-2xl'>To provide strategic and
+                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>To provide strategic and
                         technical value to our
                         Customers by designing,
                         building and maintaining cost
@@ -63,6 +90,22 @@ const AboutPage = () => {
                         Pakistan’s leading Operators
                         and Service Providers.
                     </p>
+
+                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pt-2 text-[rgb(54,137,185)]'>Our Vision</h1>
+
+                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>We take great pride in being
+                        able to offer our Customers our
+                        wealth of experience and
+                        access to world class products
+                        through our key relationships
+                        with manufacturers, in order to
+                        assist their rapid deployment
+                        of networks to meet the
+                        current and future needs of the
+                        telecommunications market.
+
+                    </p>
+
 
                 </div>
 
@@ -78,39 +121,7 @@ const AboutPage = () => {
                 </div>
             </div>
 
-            <div className='w-full min-h-screen flex flex-col md:flex-row gap-2 pt-10 md:pt-0 md:gap-10 pb-4 lg:pb-8 px-2 md:px-6 md:px-20 lg:px-40 justify-center items-center'>
-
-                <div className='w-full flex gap-3 items-center justify-start'>
-
-
-                    <img
-                        className='w-full md:w-full lg:w-4/5'
-                        src='/about/vision.jpeg'
-                        alt='Telecom Deployment'
-                        loading='lazy'
-                    />
-                </div>
-
-                <div className='w-full h-full flex flex-col items-end'>
-                    <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>Our Vision</h1>
-
-                    <p className='pt-2 text-xl md:text-xl lg:text-2xl text-end'>We take great pride in being
-                        able to offer our Customers our
-                        wealth of experience and
-                        access to world class products
-                        through our key relationships
-                        with manufacturers, in order to
-                        assist their rapid deployment
-                        of networks to meet the
-                        current and future needs of the
-                        telecommunications market.
-
-                    </p>
-
-                </div>
-
-
-            </div>
+            <Statistics />
 
             <Footer />
         </>

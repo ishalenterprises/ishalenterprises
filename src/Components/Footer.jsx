@@ -24,8 +24,8 @@ const Footer = () => {
 
                         <div className='flex lg:flex-col text-xs lg:text-base text-gray-600 text-start gap-2'>
                             <Link to='/'>Home</Link>
-                            <Link to='/'>About Us</Link>
-                            <Link to='/'>Contact Us</Link>
+                            <Link to='/about'>About Us</Link>
+                            <Link to='/contact'>Contact Us</Link>
                         </div>
 
                     </div>
@@ -104,8 +104,8 @@ const Footer = () => {
 
                             <div className='flex flex-col text-xs lg:text-base text-gray-600 text-start gap-1'>
                                 <Link to='/'>Home</Link>
-                                <Link to='/'>About Us</Link>
-                                <Link to='/'>Contact Us</Link>
+                                <Link to='/about'>About Us</Link>
+                                <Link to='/contact'>Contact Us</Link>
                             </div>
 
                         </div>
@@ -166,7 +166,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <p className='text-center pt-4 text-xs md:text-sm lg:text-base text-gray-600'>©Copyright-2024 - Created by Hammad Ansari</p>
+                <p className='text-center pt-4 text-xs md:text-sm lg:text-base text-gray-600'>©Copyright-2025 - Created by Hammad Ansari</p>
 
             </div>
         </>

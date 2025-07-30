@@ -36,7 +36,7 @@ const PotfolioAndGallery = () => {
                     </div>
                     
                     <div className='flex flex-col gap-4 md:gap-2'>
-                        <img className='w-auto' src='/portfolio/photo-7.jpg' />
+                        <img className='w-auto' src='/services-page/photo-5.jpg' />
 
                         <img className='w-auto' src='/portfolio/photo-8.jpg' />
 

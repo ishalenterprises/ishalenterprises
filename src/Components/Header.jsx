@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import MenuBar from './MenuBar';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { IoMenu } from "react-icons/io5";
 
 
@@ -16,6 +16,13 @@ const Header = () => {
         setMenu(!menu)
     }
 
+    const navigate = useNavigate();
+
+  const handleChange = (e) => {
+    const value = e.target.value;
+    if (value) navigate(`/services/${value}`);
+  };
+
     return (
         <>
             <div className='w-full flex bg-white justify-between h-auto py-5 pl-2 md:pl-7 pr-8 md:pr-12 lg:pr-16 sticky top-0 z-50 bg-gradient-to-r from-gray-100 via-gray-200 to-white shadow-md shadow-black'>
@@ -26,7 +33,7 @@ const Header = () => {
                             alt='Logo'
                             className='w-28'
                         /> */}
-                        <p className='text-[rgb(54,137,185)]'>Ishaal Enterprises</p>
+                        <p className='text-[rgb(54,137,185)] text-lg md:text-xl'>Ishaal Enterprises</p>
                     </Link>
                 </div>
 
@@ -40,24 +47,21 @@ const Header = () => {
                             <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <Link to='/' >Contact</Link>
+                            <Link to='/contact' >Contact</Link>
                         </li>
                         <li>
                             <select
-                                // onChange={(e) => {
-                                //     const value = e.target.value;
-                                //     if (value === "developer") {
-                                //         window.location.href = "/developers-auth";
-                                //     } else if (value === "user") {
-                                //         window.location.href = "/users-auth";
-                                //     }
-                                // }}
-                                className="bg-transparent cursor-pointer outline-none"
-                            >
-                                <option disabled selected>Services</option>
-                                {/* <option value="developer">Developer</option>
-                                <option value="user">User</option> */}
-                            </select>
+  onChange={handleChange}
+  className="bg-transparent cursor-pointer outline-none text-[rgb(54,137,185)] w-[100px] overflow-hidden text-ellipsis"
+>
+  <option disabled selected hidden>Services</option>
+  <option value="infrastructure-work">Infrastructure Work</option>
+  <option value="civil-work">Civil Work</option>
+  <option value="site-surveys">Land Surveys</option>
+  <option value="maintanence-work">Maintenance Work</option>
+  <option value="losrs-surveys">LOSRs & MW</option>
+</select>
+
                         </li>
                     </ul>
 
