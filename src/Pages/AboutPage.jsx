@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer'
 import Statistics from '../Components/Statistics';
+import OrganizationHierarcy from '../Components/OrganizationHierarcy';
 
 
 const AboutPage = () => {
@@ -75,6 +76,8 @@ long haul more than 700+ Sites.
                     />
                 </div>
             </div>
+
+            <OrganizationHierarcy />
 
 
             <div className='w-full md:min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
