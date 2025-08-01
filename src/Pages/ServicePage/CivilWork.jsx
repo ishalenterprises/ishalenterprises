@@ -16,7 +16,7 @@ const CivilWork = () => {
             <Header />
             <div className='relative h-[40vh] md:h-[60vh] w-full'>
                 <div className='relative w-full h-[40vh] md:h-[60vh] flex items-center justify-center'>
-            <img className='w-full h-full object-cover' src='/services-page/construction.jpeg' />
+            <img className='w-full h-full object-cover' src='/civil-page/4.jpg' />
             </div>
 
             <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
@@ -80,7 +80,7 @@ const CivilWork = () => {
                     
 
                     <div className='flex items-center justify-end'>
-                        <img className='w-full md:w-2/3' src='/services/civil-work.jpeg' />
+                        <img className='w-full md:w-2/3' src='/services/civil-works.jpg'/>
 
                     </div>
 

@@ -16,10 +16,10 @@ const SiteSurveys = () => {
             <Header />
             <div className='relative h-[40vh] md:h-[60vh] w-full'>
                 <div className='relative w-full h-[40vh] md:h-[60vh] flex items-center justify-center'>
-            <img className='w-full h-full object-cover' src='/services-page/land-survey.jpeg' />
+            <img className='w-full h-full object-cover' src='/site-surveys/1.jpeg' />
             </div>
 
-            <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
+            <div className='inset-0 z-30 bg-black/70 md:bg-black/70 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
                 <h1 className='text-center px-3 md:px-0 text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(54,137,185)]'>Site Surveys for Acquiring Lands</h1>
@@ -57,7 +57,7 @@ const SiteSurveys = () => {
                     
 
                     <div className='flex items-center justify-end'>
-                        <img className='w-full md:w-2/3' src='/services/site-survey.jpeg' />
+                        <img className='w-full md:w-4/5' src='/services/site-surveys.jpeg' />
 
                     </div>
 
@@ -125,8 +125,10 @@ const SiteSurveys = () => {
                         <img src='/site-surveys/15.jpg' />
                         <img src='/site-surveys/16.jpg' />
                         <img src='/site-surveys/17.jpg' />
+                        <img src='/site-surveys/18.jpg' />
+                        <img src='/site-surveys/19.jpg' />
+                        <img src='/site-surveys/14.jpg' />
 
-                        
                     </div>
 
 
