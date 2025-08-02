@@ -20,27 +20,39 @@ const Banner = () => {
 
   const slides = [
     {
-      src: isMobile ? "/banner/mobile-1.jpeg" : "/banner/1.jpeg",
+      src: "/banner/1.jpeg",
       headline: "More Than Just Construction — We Build Your Dreams Into Reality",
       subline:
         "Whether renovating a cherished home or starting a new project, we listen to your needs, guide you through every detail, and deliver results that reflect your lifestyle, values, and goals.",
     },
     {
-      src: isMobile ? "/banner/mobile-2.jpeg" : "/banner/2.jpeg",
-      headline: "From Towers to Fiber — We Build What Connects Pakistan",
+      src: "/banner/2.jpeg",
+      headline: "Professional Land Surveying Services for Accurate Planning and Development",
       subline:
-        "Since 2010, we’ve been at the forefront of building resilient telecom networks across Sindh, Balochistan, and beyond. Our partnerships with major telcos and expertise in tower deployment and fiber optics have made us a trusted name in connectivity and innovation.",
+        "We provide detailed and reliable site surveys to help you make informed decisions for construction, land acquisition, and regulatory approvals. From boundary identification to topographic mapping, we ensure your project starts on solid ground",
     },
     {
-      src: isMobile ? "/banner/mobile-3.jpeg" : "/banner/3.jpeg",
-      headline: "Keeping Networks Alive with Reliable Maintenance Solutions",
+      src: "/banner/3.jpeg",
+      headline: "Customized DB & Sunshade Fabrication Solutions for Every Project",
       subline:
-        "From routine checks to emergency support, our expert teams ensure uninterrupted network performance through proactive, efficient, and scalable telecom maintenance services.",
+        "We design and fabricate high-quality distribution boards and durable sunshade structures tailored to your needs—ensuring safety, efficiency, and long-lasting protection in residential, commercial, and industrial settings.",
+    },
+    {
+      src: "/banner/4.jpeg",
+      headline: "Complete Power Solutions – Solar Structure&Panel & DG Rental Services",
+      subline:
+        "We provide end-to-end energy solutions tailored to your needs. Our solar structures and high-performance panels offer a clean, sustainable source of energy for homes, businesses, and industries. For backup or primary power needs, our Diesel Generator (DG) Rental services ensure uninterrupted power with reliable equipment and on-time support. Whether you're going green or need emergency power, we've got you covered.",
+    },
+    {
+      src: "/banner/5.jpeg",
+      headline: "Your Trusted Source for General Supplies & IT Services",
+      subline:
+        "We provide a wide range of essential products and services to support your organization’s daily operations. From high-quality uniforms, stationery, gadgets, and furniture to reliable IT services and equipment, we ensure timely delivery and consistent quality—helping you stay organized, equipped, and efficient.",
     },
   ];
 
   return (
-    <div className="w-full h-[80vh] md:h-[90vh] relative">
+    <div className="w-full h-[80vh] md:h-[94vh] relative">
       <Swiper
         autoplay={{
           delay: 6000,
@@ -51,16 +63,16 @@ const Banner = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-[75vh] md:h-[85vh] flex items-center justify-center">
+            <div className="relative w-full h-[75vh] md:h-[90vh] flex items-center justify-center">
               {/* Image */}
               <img
                 src={slide.src}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-full object-obtain md:object-cover"
+                className="w-full h-full object-cover md:object-cover"
               />
 
               {/* Left shadow */}
-              <div className="absolute top-0 left-0 h-full w-full sm:w-[70rem] bg-gradient-to-r from-black/80 to-transparent z-10 pointer-events-none" />
+              <div className="absolute top-0 left-0 h-full w-full sm:w-full bg-gradient-to-r from-black/80 to-transparent z-10 pointer-events-none" />
 
               {/* Text */}
               <div className="absolute top-1/2 left-4 sm:left-20 transform -translate-y-1/2 z-20 max-w-[70%] sm:max-w-xl">

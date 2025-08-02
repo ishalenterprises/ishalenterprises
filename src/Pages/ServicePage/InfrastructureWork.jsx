@@ -22,7 +22,7 @@ const InfrastructureWork = () => {
             <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-2xl text-center sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(54,137,185)]'>Infrastruture Work</h1>
+                <h1 className='text-2xl text-center sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(37,83,177)]'>Infrastruture Work</h1>
 
             </div>
 
@@ -81,7 +81,7 @@ const InfrastructureWork = () => {
                     
 
                     <div className='flex items-center justify-end'>
-                        <img className='w-full md:w-2/3' src='/services-page/firstImage.jpeg' />
+                        <img className='w-full md:w-1/2' src='/civil-page/17.jpg' />
 
                     </div>
 
@@ -94,17 +94,17 @@ const InfrastructureWork = () => {
                     
 
                     <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 md:py-6 lg:mt-8'>
-                        <img src='/services-page/infrastructure-4.jpeg' />
-                        <img src='/services-page/infrastructure-5.jpeg' />
-                        <img src='/services-page/infrastructure-6.jpeg' />
-                        <img src='/services-page/infrastructure-7.jpeg' />
+                        <img src='/civil-page/3.jpg' />
+                        <img src='/civil-page/7.jpg' />
+                        <img src='/civil-page/14.jpg' />
+                        <img src='/civil-page/2.jpg' />
                         
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 pt-3 md:pt-0'>
-                        <img src='/services-page/infrastructure-1.jpg' />
-                        <img src='/services-page/infrastructure-2.jpg' />
-                        <img src='/services-page/infrastructure-3.jpg' />
+                        <img src='/civil-page/6.jpg' />
+                        <img src='/civil-page/9.jpg' />
+                        <img src='/civil-page/8.jpg' />
                         
                     </div>
 

@@ -19,49 +19,36 @@ const AboutPage = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pt-10 md:pt-8 px-4 md:px-6 md:px-8 lg:px-8 items-center justify-center'>
 
                 <div className='w-full md:w-4/5 h-full flex flex-col'>
-                    <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>About Us</h1>
+                    <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(37,83,177)]'>About Us</h1>
 
-                    <p className='pt-2 text-sm md:text-base text-gray-600'><strong>Ishaal Enterprises,</strong> was founded in Jan 2010, We commenced operations in 2010 and did multiples sites
-                        while in January 2021 upon signing with one of Pakistan’s largest telcos for deploying telecom towers,
-                        alongside the Sanghar under the NOKIA USF project. At the same time, we acquired CMPAK
+                    <p className='pt-2 text-sm md:text-base text-gray-600'><strong>Ishaal Enterprises, verified by ISO</strong> was founded in Jan <strong>2010</strong>, We commenced operations in 2010 and did multiples sites
+                        while in January 2021 upon signing with one of Pakistan’s largest telcos for deploying <strong>telecom towers,
+                        alongside the Sanghar under the NOKIA USF project.</strong> At the same time, we acquired CMPAK
                         longhaul FTTS South region sites including Sindh & Balochistan, marking a significant milestone in
-                        our journey
+                        our journey.
                     </p>
 
-                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
-                        Ishaal Enterprises is a trusted name in the construction, renovation, and telecom maintenance
-                        industry. We specialize in high-quality building solutions, structural renovations, and comprehensive
-                        telecom infrastructure maintenance. With a strong commitment to excellence, safety, and efficiency,
-                        our skilled team ensures timely project execution while maintaining the highest industry standards. At
-                        Ishaal Enterprises, we take pride in delivering innovative solutions tailored to meet our clients' specific
-                        needs, fostering long-term partnerships based on reliability and trus
-                    </p>
+                    <p className='pt-2 lg:text-base text-gray-600'>
+            In <strong>2021</strong> we achieved a major milestone through our partnership in the NOKIA USF projects in Sanghar, Jamshoro-Sehwan (Small Lot S7), and Tharparkar (Small Lot S10). That same year, we also commenced work on CMPAK Zong’s FTTS Longhaul Metro deployments across Sindh and Balochistan. In 2022, we expanded our portfolio by contributing to NOKIA Sharing Sites and continuing our Engro Enfrashare Rollout operations, supporting telecom expansion in underserved regions.
+            </p>
 
-                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
-                        Our core activities involve constructing, and managing telecom infrastructure networks that enable
-                        connectivity across the Country.We did also multiples Tower-sharing sites which helps optimize the
-                        tower footprint in the Country by preventing tower proliferation, removing parallel capacities and
-                        excessive network redundancies, and reducing the carbon footprint that results from operating a
-                        higher number of towers.
-                    </p>
+            <p className='pt-2 lg:text-base text-gray-600'>
+            In <strong>2023</strong>, our team handled the <strong>NOKIA</strong> Dismantling Scope and continued with NOKIA Sharing Sites expansion, while also managing Mobilink Maintenance Sites across various locations. We further enhanced our <strong>fiber deployment</strong> capabilities with <strong>CMPAK Zong</strong> Longhaul Metro FTTS operations. In <strong>2024</strong>, we proudly continue work on <strong> NOKIA Sharing Sites, Dismantling Scope, and Mobilink Maintenance</strong>, while actively executing CMPAK Zong FTTS Longhaul Metro deployments and supporting <strong>Engro Enfrashare rollout</strong> plans.
+            </p>
 
-                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
-                        Our purpose remains to make connectivity more accessible and affordable for all. By doing our bit to
-                        build a truly connected world, we believe that we will help ensure everyone will have equal access and
-                        opportunities to improve their lives — irrespective of wealth, gender, race, or any other factor.
-                    </p>
-
-                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
-                        Ishaal Enterprises spreading there services  from Chitral in the North to Karachi in the South, covering
-                        some of the most complex and security-challenged terrains including khuzdar,Jamshoro,Nooriabad
-                        and Tharparkar.
-                    </p>
-
-                    <p className='pt-2 text-sm lg:text-base text-gray-600'>
-                        Today, Ishaal Enterprises the best vendor of towerco in Pakistan with over 250 plus towers &  FTTS
-                        long haul more than 700+ Sites.
-
-                    </p>
+            <p className='pt-2 lg:text-base text-gray-600'>
+            Over the years, we've provided <strong>telecom tower construction and maintenance</strong> for clients like <strong>Zong 4G, Telenor, Huawei, and Nokia,</strong> and deployed <strong>fiber infrastructure and tower-sharing solutions for Tawal, Edotco, and CMPAK.</strong> Our site surveys and land acquisition services have supported leading organizations such as <strong>Engro Energy and Mobilink Bank</strong>, while our civil construction work includes projects for <strong>IBA Sukkur, PPHI, and TCF Schools.</strong>
+            </p>
+            
+            <p className='pt-2 lg:text-base text-gray-600'>
+            We also offer solar panel installation services for <strong>residential, commercial, and telecom sites </strong>promoting clean energy adoption and reducing operational costs. Trusted by both private clients and institutions, our solar solutions are tailored for performance, durability, and long-term savings.
+            </p>
+            
+            <p className='pt-2 lg:text-base text-gray-600'>
+            In addition, we provide high-quality <strong>private residential construction, custom DB fabrication, sunshade shelters, and DG rental services</strong> for reliable backup power—trusted by institutions like <strong>SIUT and NBP</strong>. Our general supply services ensure timely availability of essential materials and equipment like <strong>Uniforms,
+ Stationary, Stitching Gadgets Furniture and Fixtures, Safety
+ Equipments, IT Products and Electronics.</strong> 
+            </p>
 
                 </div>
 
@@ -79,7 +66,7 @@ const AboutPage = () => {
                <div className="w-full md:w-4/5 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center py-8 gap-6">
   {/* Text Section */}
   <div className="w-full md:w-2/3 flex flex-col justify-center">
-    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[rgb(54,137,185)] pb-2">
+    <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[rgb(37,83,177)] pb-2">
       Message from the CEO
     </h1>
 
@@ -109,7 +96,7 @@ const AboutPage = () => {
       <br />
       <br />
       <span className="font-semibold">With respect and determination,</span><br />
-      <span className="font-bold text-[rgb(54,137,185)]">Mr. Allaouddin Pirzada</span>
+      <span className="font-bold text-[rgb(37,83,177)]">Mr. Allaouddin Pirzada</span>
     </p>
   </div>
 
@@ -135,7 +122,7 @@ const AboutPage = () => {
             <div className='w-full md:min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
 
                 <div className='w-full max-h-full justify-center flex flex-col'>
-                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pb-1 text-[rgb(54,137,185)]'>Our Mission</h1>
+                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pb-1 text-[rgb(37,83,177)]'>Our Mission</h1>
 
                     <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>To provide strategic and
                         technical value to our
@@ -146,7 +133,7 @@ const AboutPage = () => {
                         and Service Providers.
                     </p>
 
-                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pt-2 text-[rgb(54,137,185)]'>Our Vision</h1>
+                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pt-2 text-[rgb(37,83,177)]'>Our Vision</h1>
 
                     <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>We take great pride in being
                         able to offer our Customers our

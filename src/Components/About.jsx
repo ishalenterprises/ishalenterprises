@@ -9,13 +9,13 @@ const About = () => {
     <div className='w-full min-h-screen flex flex-col md:flex-row pb-4 py-6 lg:pb-8 px-2 md:px-6 lg:px-8'>
       <div className='w-full text-black h-full flex flex-col gap-4 md:flex-row px-2 md:px-6 lg:px-8 xl:px-10'>
         <div className='w-full md:w-1/2 h-full flex flex-col'>
-          <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(54,137,185)]'>About Us</h1>
+          <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(37,83,177)]'>About Us</h1>
 
-          <p className='pt-2 lg:text-base text-gray-600'><strong>Ishaal Enterprises,</strong> Established in January 2010, Ishaal Enterprises is a trusted name across Pakistan in <strong>telecom infrastructure development, telecom maintenance, civil construction, private home construction and renovation, solar panel installation, site surveys for land acquisition, DB and sunshade fabrication, DG rental, and general product supply.</strong> We operate nationwide—from <strong>Chitral to Karachi</strong>, including remote and challenging areas like <strong>Khuzdar, Jamshoro, Sehwan, Hyderabad, Nooriabad, Sanghar and Tharparkar </strong>with a reputation for delivering reliable and cost-effective solutions.
+          <p className='pt-2 lg:text-base text-gray-600'><strong>Ishaal Enterprises,</strong> Founded in January 2010, Ishaal Enterprises has steadily evolved into one of Pakistan’s most reliable names in telecom infrastructure, construction, and maintenance services. From humble beginnings to executing large scale nationwide projects, we have proudly expanded our reach from Chitral in the North to Karachi in the South, including some of the most complex and security challenged terrains such as Khuzdar, Jamshoro, Sehwan, Hyederabad, Nooriabad,  and Tharparkar.
             </p>
 
             <p className='pt-2 lg:text-base text-gray-600'>
-            In <strong>2021</strong>, we achieved a major milestone through our partnership in the <strong>NOKIA USF projects in Sanghar, Jamshoro-Sehwan (Small Lot S7), and Tharparkar (Small Lot S10).</strong> That same year, we also commenced work on <strong>CMPAK Zong’s FTTS Longhaul Metro deployments</strong> across Sindh and Balochistan. In <strong>2022</strong>, we expanded our portfolio by contributing to <strong>NOKIA Sharing Sites</strong> and continuing our <strong>Engro Enfrashare Rollout operations, supporting telecom expansion</strong> in underserved regions. 
+            In <strong>2021</strong> we achieved a major milestone through our partnership in the NOKIA USF projects in Sanghar, Jamshoro-Sehwan (Small Lot S7), and Tharparkar (Small Lot S10). That same year, we also commenced work on CMPAK Zong’s FTTS Longhaul Metro deployments across Sindh and Balochistan. In 2022, we expanded our portfolio by contributing to NOKIA Sharing Sites and continuing our Engro Enfrashare Rollout operations, supporting telecom expansion in underserved regions.
             </p>
 
             <p className='pt-2 lg:text-base text-gray-600'>
@@ -37,15 +37,15 @@ const About = () => {
             </p>
         </div>
 
-        <div className='w-full md:w-1/2 h-full flex gap-3 items-center justify-end'>
+        <div className='w-full md:w-1/2 h-full flex flex-col gap-3 items-center justify-end'>
 
   <div className='flex flex-col gap-4'>
     
     {/* Top Image */}
     <img 
       className='w-full md:w-[25rem] lg:w-[28.5rem]' 
-      src='/about/1.jpeg' 
-      alt='Telecom Deployment' 
+      src='/civil-page/4.jpg' 
+      alt='civil-construction' 
       loading='lazy' 
       width={456}
       height={300}
@@ -56,7 +56,7 @@ const About = () => {
       <div className='w-1/2'>
         <img 
           className='md:w-52 lg:w-56' 
-          src='/about/2.jpeg' 
+          src='/civil-page/7.jpg' 
           alt='Towers' 
           loading='lazy' 
           width={224}
@@ -67,7 +67,7 @@ const About = () => {
       <div className='w-1/2'>
         <img 
           className='md:w-52 lg:w-56' 
-          src='/about/4.jpeg' 
+          src='/civil-page/5.jpg' 
           alt='Maintenance' 
           loading='lazy' 
           width={224}
@@ -75,6 +75,45 @@ const About = () => {
         />
       </div>
     </div>
+
+    <div className='flex flex-col gap-4'>
+    
+    {/* Top Image */}
+    <img 
+      className='w-full md:w-[25rem] lg:w-[28.5rem]' 
+      src='/db-sunshade/12.jpeg' 
+      alt='civil-construction' 
+      loading='lazy' 
+      width={456}
+      height={300}
+    />
+
+    {/* Two Side-by-Side Images */}
+    <div className='flex gap-2'>
+      <div className='w-1/2'>
+        <img 
+          className='md:w-52 lg:w-56' 
+          src='/solar-panel/1.jpg' 
+          alt='Towers' 
+          loading='lazy' 
+          width={224}
+          height={150}
+        />
+      </div>
+
+      <div className='w-1/2'>
+        <img 
+          className='md:w-52 lg:w-56' 
+          src='/site-surveys/15.jpg' 
+          alt='Maintenance' 
+          loading='lazy' 
+          width={224}
+          height={150}
+        />
+      </div>
+    </div>
+
+            </div>
 
             </div>
         </div>

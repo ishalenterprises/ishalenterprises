@@ -16,13 +16,13 @@ const DgRental = () => {
             <Header />
             <div className='relative h-[40vh] md:h-[60vh] w-full'>
                 <div className='relative w-full h-[40vh] md:h-[60vh] flex items-center justify-center'>
-            <img className='w-full h-full object-cover' src='/dg-rental/6.jpg' />
+            <img className='w-full h-full object-cover' src='/dg-rental/4.jpg' />
             </div>
 
             <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(54,137,185)]'>DG Rental</h1>
+                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(37,83,177)]'>DG Rental</h1>
 
             </div>
 
@@ -67,15 +67,11 @@ Whether it’s a temporary solution during site development or a long-term requi
 
                     </div>      
 
-                    <div className='grid grid-cols-2 md:grid-cols-2 gap-4 mt-2 lg:mt-4'>
-                        <img src='/dg-rental/1.jpg' />
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2 lg:mt-4 items-center justify-center'>
                         <img src='/services/dg-rental-2.jpg' />
-                    </div>
                     
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-2 lg:mt-4'>
                         <img src='/dg-rental/5.jpg' />
                         <img src='/dg-rental/4.jpg' />
-                        <img src='/dg-rental/6.jpg' />
                     </div>
 
                 </div>

@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className='hidden lg:flex lg:flex-row gap-4 justify-between'>
 
                     <div className='flex flex-col lg:w-[12rem] items-center justify-center'>
-                        <h1 className='text-xl lg:text-2xl'>Ishaal Enterprises</h1>
+                        <img src='/logo-ishal-removebg-preview.png' />
 
                     </div>
 
@@ -94,7 +94,7 @@ const Footer = () => {
 
                     <div className='flex justify-between'>
                         <div className='flex flex-col justify-center lg:w-[15rem] w-2/3'>
-                            <h1 className='text-lg lg:text-2xl'>Ishaal Enterprises</h1>
+                            <img className='w-[10rem]' src='/logo-ishal-removebg-preview.png' />
 
                         </div>
 

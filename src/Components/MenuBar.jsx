@@ -13,7 +13,7 @@ const MenuBar = ({ hideMenu }) => {
     { name: "Maintenance Work", path: "maintanence-work" },
     { name: "LOSRs & MW", path: "losrs-surveys" },
     { name: "DG Rental", path: "dg-rental" },
-    { name: "DB & Sunshade Fabric", path: "db-sunshade-fabrics" },
+    { name: "DB & Sunshade Fabrication", path: "db-sunshade-fabrics" },
     { name: "Solar Panel & Structure", path: "solar-work" },
     { name: "Home Construction & Renovation", path: "home-construction-renovation" },
     { name: "General Products Supply", path: "general-products" },

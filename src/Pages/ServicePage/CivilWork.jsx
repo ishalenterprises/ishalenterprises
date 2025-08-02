@@ -22,7 +22,7 @@ const CivilWork = () => {
             <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(54,137,185)]'>Civil Work</h1>
+                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(37,83,177)]'>Civil Work</h1>
 
             </div>
 

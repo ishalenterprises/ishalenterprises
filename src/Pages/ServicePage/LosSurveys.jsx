@@ -22,7 +22,7 @@ const LosSurveys = () => {
             <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(54,137,185)]'>LOSRs Surveys, MW Planning & CW Design</h1>
+                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(37,83,177)]'>LOSRs Surveys, MW Planning & CW Design</h1>
 
             </div>
 
@@ -94,9 +94,9 @@ const LosSurveys = () => {
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-0'>
-                        <img src='/civil-page/4.jpg' />
-                        <img src='/civil-page/6.jpg' />
-                        <img src='/civil-page/9.jpg' />
+                        <img src='/portfolio/3.jpg' />
+                        <img src='/site-surveys/19.jpg' />
+                        <img src='/portfolio/photo-1.jpg' />
 
                         
                     </div>

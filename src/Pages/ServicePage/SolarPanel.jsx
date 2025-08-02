@@ -16,13 +16,13 @@ const SolarPanel = () => {
             <Header />
             <div className='relative h-[40vh] md:h-[60vh] w-full'>
                 <div className='relative w-full h-[40vh] md:h-[60vh] flex items-center justify-center'>
-            <img className='w-full h-full object-cover' src='/services-page/construction.jpeg' />
+            <img className='w-full h-full object-cover' src='/solar-panel/1.jpg' />
             </div>
 
             <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
 
             <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(54,137,185)]'>Solar Panel & Structure</h1>
+                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(37,83,177)]'>Solar Panel & Structure</h1>
 
             </div>
 

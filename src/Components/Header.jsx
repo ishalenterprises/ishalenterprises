@@ -23,7 +23,7 @@ const Header = () => {
         { name: "Maintenance Work", path: "maintanence-work" },
         { name: "LOSRs & MW", path: "losrs-surveys" },
         { name: "DG Rental", path: "dg-rental" },
-        { name: "DB & Sunshade Fabric", path: "db-sunshade-fabrics" },
+        { name: "DB & Sunshade Fabrication", path: "db-sunshade-fabrics" },
         { name: "Solar Panel & Structure", path: "solar-work" },
         { name: "Home COnstruction & Renovation", path: "home-construction-renovation" },
         { name: "General Products Supply", path: "general-products" },
@@ -31,15 +31,15 @@ const Header = () => {
 
     return (
         <>
-            <div className='w-full flex bg-white justify-between h-auto py-5 pl-2 md:pl-7 pr-8 md:pr-12 lg:pr-16 sticky top-0 z-50 bg-gradient-to-r from-gray-100 via-gray-200 to-white shadow-md shadow-black'>
-                <div className='items-center flex pl-4'>
+            <div className='w-full flex bg-white justify-between h-auto py-2 pl-2 md:pl-7 pr-8 md:pr-12 lg:pr-16 sticky top-0 z-50 bg-gradient-to-r from-gray-100 via-gray-200 to-white shadow-md shadow-black'>
+                <div className='items-center flex pl-2 md:pl-4'>
                     <Link className='cursor-pointer' to='/'>
-                        <p className='text-[rgb(54,137,185)] text-lg md:text-xl'>Ishaal Enterprises</p>
+                        <img className='w-[13rem] md:w-auto' src='/logo-ishal-removebg-preview.png' />
                     </Link>
                 </div>
 
                 <div className='flex w-1/2 items-center justify-end'>
-                    <ul className='hidden md:flex text-[rgb(54,137,185)] text-lg gap-6 relative'>
+                    <ul className='hidden md:flex text-xl text-[rgb(37,83,177)] text-lg gap-6 relative'>
                         <li>
                             <Link to="/">Home</Link>
                         </li>
@@ -73,7 +73,7 @@ const Header = () => {
 
                     {/* Mobile Menu Icon */}
                     <ul className='flex md:hidden'>
-                        <IoMenu className='text-3xl' onClick={showMenu} />
+                        <IoMenu className='text-4xl' onClick={showMenu} />
                     </ul>
                 </div>
             </div>
