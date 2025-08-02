@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Components/Header';
+import CoreValues from '../Components/CoreValues';
 import Footer from '../Components/Footer'
 import Statistics from '../Components/Statistics';
 import OrganizationHierarcy from '../Components/OrganizationHierarcy';
@@ -19,48 +20,50 @@ const AboutPage = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pt-10 md:pt-8 px-4 md:px-6 md:px-8 lg:px-8 items-center justify-center'>
 
                 <div className='w-full md:w-4/5 h-full flex flex-col'>
-                    <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(37,83,177)]'>About Us</h1>
+                    <h1 className='text-3xl sm:text-4xl lg:text-4xl py-6 md:py-14 text-bold xl:text-5xl pb-1 text-center text-[rgb(37,83,177)]'>ISHAL ENTERPERISES</h1>
 
-                    <p className='pt-2 text-sm md:text-base text-gray-600'><strong>Ishal Enterprises, verified by ISO</strong> was founded in Jan <strong>2010</strong>, We commenced operations in 2010 and did multiples sites
-                        while in January 2021 upon signing with one of Pakistan’s largest telcos for deploying <strong>telecom towers,
-                        alongside the Sanghar under the NOKIA USF project.</strong> At the same time, we acquired CMPAK
-                        longhaul FTTS South region sites including Sindh & Balochistan, marking a significant milestone in
-                        our journey.
+                    <p className='pt-2 md:pt-4 text-sm md:text-base text-gray-600'>Ishaal Enterprises, verified by ISO, has come a long way since its inception in 2010. With unwavering commitment, distinction, and a pursuit of professional excellence, Ishaal has consistently met the high expectations and complex demands of its clients in both public and private sectors. Over the years, Ishaal has undertaken a range of prestigious telecom and civil projects involving construction, power, solar, and general services across Pakistan.
                     </p>
 
-                    <p className='pt-2 lg:text-base text-gray-600'>
-            In <strong>2021</strong> we achieved a major milestone through our partnership in the NOKIA USF projects in Sanghar, Jamshoro-Sehwan (Small Lot S7), and Tharparkar (Small Lot S10). That same year, we also commenced work on CMPAK Zong’s FTTS Longhaul Metro deployments across Sindh and Balochistan. In 2022, we expanded our portfolio by contributing to NOKIA Sharing Sites and continuing our Engro Enfrashare Rollout operations, supporting telecom expansion in underserved regions.
+                    <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
+            Initially starting with small-scale deployments, Ishaal reached a key turning point in January 2021, after signing with one of Pakistan’s largest telecom operators for the deployment of telecom towers under the NOKIA USF project in Sanghar. This partnership marked the beginning of a new era, expanding Ishaal's operations to CMPAK longhaul FTTS South Region projects including Sindh and Balochistan.
             </p>
 
-            <p className='pt-2 lg:text-base text-gray-600'>
-            In <strong>2023</strong>, our team handled the <strong>NOKIA</strong> Dismantling Scope and continued with NOKIA Sharing Sites expansion, while also managing Mobilink Maintenance Sites across various locations. We further enhanced our <strong>fiber deployment</strong> capabilities with <strong>CMPAK Zong</strong> Longhaul Metro FTTS operations. In <strong>2024</strong>, we proudly continue work on <strong> NOKIA Sharing Sites, Dismantling Scope, and Mobilink Maintenance</strong>, while actively executing CMPAK Zong FTTS Longhaul Metro deployments and supporting <strong>Engro Enfrashare rollout</strong> plans.
+            <p className='pt-4 lg:text-base text-gray-600'>
+            Since then, Ishaal Enterprises has rapidly grown across multiple domains:
+
+            <ul className='list-disc pl-6 md:pl-8 pt-2 md:pt-4 font-bold'>
+              <li>Telecom Infrastructure Development</li>
+              <li>Civil Construction Projects</li>
+              <li>Solar Structure & Installation</li>
+              <li>Diesel Generator Rental Services</li>
+              <li>DB & Sunshade Fabrication</li>
+              <li>Home Construction & Renovation</li>
+              <li>General Supplies (Uniforms, IT Products, Furniture, Safety Equipment)</li>
+              <li>Infrastructure Work</li>
+            </ul>
             </p>
 
-            <p className='pt-2 lg:text-base text-gray-600'>
-            Over the years, we've provided <strong>telecom tower construction and maintenance</strong> for clients like <strong>Zong 4G, Telenor, Huawei, and Nokia,</strong> and deployed <strong>fiber infrastructure and tower-sharing solutions for Tawal, Edotco, and CMPAK.</strong> Our site surveys and land acquisition services have supported leading organizations such as <strong>Engro Energy and Mobilink Bank</strong>, while our civil construction work includes projects for <strong>IBA Sukkur, PPHI, and TCF Schools.</strong>
+            <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
+            By 2022, Ishaal further extended its presence with projects such as NOKIA Sharing Sites, Engro Enfrashare Rollout, and CMPAK Zong FTTS Metro deployments, playing a vital role in expanding telecom access in underserved regions of Pakistan.
             </p>
             
-            <p className='pt-2 lg:text-base text-gray-600'>
-            We also offer solar panel installation services for <strong>residential, commercial, and telecom sites </strong>promoting clean energy adoption and reducing operational costs. Trusted by both private clients and institutions, our solar solutions are tailored for performance, durability, and long-term savings.
+            <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
+            The year 2023 was another milestone, with Ishaal managing NOKIA Dismantling Scopes, Mobilink Maintenance Sites, and strengthening fiber operations across Sindh and Balochistan. In 2024, Ishaal continues to be actively involved in NOKIA Sharing, CMPAK Zong deployments, and Engro Enfrashare rollouts, ensuring high-quality and timely project delivery.
             </p>
             
-            <p className='pt-2 lg:text-base text-gray-600'>
-            In addition, we provide high-quality <strong>private residential construction, custom DB fabrication, sunshade shelters, and DG rental services</strong> for reliable backup power—trusted by institutions like <strong>SIUT and NBP</strong>. Our general supply services ensure timely availability of essential materials and equipment like <strong>Uniforms,
- Stationary, Stitching Gadgets Furniture and Fixtures, Safety
- Equipments, IT Products and Electronics.</strong> 
+            <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
+            Ishaal’s notable clients include Zong 4G, Telenor, Huawei, Nokia, Mobilink Bank, Engro Energy, Edotco, Tawal, and SIUT, reflecting the trust placed in the company by both public institutions and private enterprises.
+            </p>
+            
+            <p className='pt-2 md:pt-4lg:text-base text-gray-600'>
+            The company also excels in custom DB fabrication, sunshade shelters, DG rental for backup power, and general supplies, offering a one-stop solution for institutional and project-based needs. Clients such as IBA Sukkur, PPHI, TCF Schools, and NBP are a testament to Ishaal’s dedication to quality, durability, and reliability.
+            </p>
+            
+            <p className='pt-2 md:pt-4 lg:text-base text-gray-600'>
+            Through a continuous focus on innovation, efficient project management, and client satisfaction, Ishaal Enterprises is setting new benchmarks in the engineering, telecom, and construction industries—helping build a connected, sustainable, and technologically empowered Pakistan.
             </p>
 
-                </div>
-
-                <div className='w-full md:w-4/5 h-full flex gap-3 items-center justify-end'>
-
-
-                    <img
-                        className='w-full '
-                        src='/about/about-1.jpg'
-                        alt='Telecom Deployment'
-                        loading='lazy'
-                    />
                 </div>
 
                <div className="w-full md:w-4/5 mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center py-8 gap-6">
@@ -119,51 +122,86 @@ const AboutPage = () => {
             <OrganizationHierarcy />
 
 
-            <div className='w-full md:min-h-screen flex flex-col md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
+            <div className='w-full flex flex-col my-24 md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
 
-                <div className='w-full max-h-full justify-center flex flex-col'>
-                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pb-1 text-[rgb(37,83,177)]'>Our Mission</h1>
+                <div className='w-full justify-center flex flex-col'>
+                    <h1 className='text-lg md:text-xl lg:text-3xl text-bold xl:text-[44px] pb-1 text-[rgb(37,83,177)]'>Our Mission</h1>
 
-                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>To provide strategic and
-                        technical value to our
-                        Customers by designing,
-                        building and maintaining cost
-                        effective solutions for
-                        Pakistan’s leading Operators
-                        and Service Providers.
+                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>To deliver innovative, reliable, and high-quality engineering and telecom solutions through advanced technologies, skilled professionals, and a commitment to excellence.
+We aim to support our clients' growth by providing sustainable infrastructure, clean energy systems, and efficient project management—ensuring value, trust, and long-term impact in every project we undertake
                     </p>
-
-                    <h1 className='text-lg md:text-xl lg:text-2xl text-bold xl:text-3xl pt-2 text-[rgb(37,83,177)]'>Our Vision</h1>
-
-                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>We take great pride in being
-                        able to offer our Customers our
-                        wealth of experience and
-                        access to world class products
-                        through our key relationships
-                        with manufacturers, in order to
-                        assist their rapid deployment
-                        of networks to meet the
-                        current and future needs of the
-                        telecommunications market.
-
-                    </p>
-
 
                 </div>
 
-                <div className='w-full max-h-full flex gap-3 items-center justify-end'>
+                <div className='w-full flex gap-3 items-center justify-end'>
 
 
                     <img
-                        className='md:w-7/8 lg:w-4/5'
-                        src='/about/mission.jpeg'
+                        className='md:w-7/8 lg:w-5/6'
+                        src='/about/mission.jpg'
                         alt='Telecom Deployment'
                         loading='lazy'
                     />
                 </div>
+                
+            </div>
+            
+            <div className='w-full flex bg-gray-100 py-6 md:py-14 flex-col mb-12 md:flex-row gap-2 md:gap-10 px-2 md:px-20 lg:px-40'>
+
+               <div className='w-full max-h-full flex gap-3 items-center justify-start'>
+
+
+                    <img
+                        className='md:w-7/8 lg:w-7/8'
+                        src='/about/vision.jpg'
+                        alt='Telecom Deployment'
+                        loading='lazy'
+                    />
+                </div>
+
+                <div className='w-full  justify-center flex flex-col'>
+                    <h1 className='text-lg md:text-xl lg:text-3xl text-bold xl:text-[44px] pb-1 text-[rgb(37,83,177)]'>Our Vision</h1>
+
+                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>To be a leading force in engineering, telecom, and sustainable infrastructure solutions—empowering communities, transforming industries, and building a connected, innovative, and energy-efficient future across Pakistan and beyond.
+                    </p>
+
+                </div>
+
+               
+                
+            </div>
+            
+            <div className='w-full flex flex-col my-12 md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
+
+               <div className='w-full max-h-full flex gap-3 items-center justify-start'>
+
+
+                    <img
+                        className='md:w-7/8 lg:w-7/8'
+                        src='/about/future.jpg'
+                        alt='Telecom Deployment'
+                        loading='lazy'
+                    />
+                </div>
+
+                <div className='w-full  justify-center flex flex-col'>
+                    <h1 className='text-lg md:text-xl lg:text-3xl text-bold xl:text-[44px] pb-1 text-[rgb(37,83,177)]'>Future</h1>
+
+                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>Ishaal Enterprises is focused on expanding its role in Pakistan’s infrastructure and energy landscape by embracing innovation and sustainability. We aim to grow beyond telecom into areas like solar energy, smart construction, and digital infrastructure—bringing reliable, cost-effective solutions to both urban and remote regions.
+                    </p>
+                    
+                    <p className='pt-2 md:pt-4 text-sm md:text-base lg:text-lg text-gray-600'>In the coming years, we plan to invest in modern technologies, skilled talent, and smart engineering practices. Our goal is to drive national progress through efficient project delivery, clean energy adoption, and inclusive development—building a smarter, stronger, and more connected Pakistan.
+                    </p>
+
+                </div>
+
+               
+                
             </div>
 
             <Statistics />
+
+            <CoreValues />
 
             <Footer />
         </>

@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../../Components/Header';
 import Footer from '../../Components/Footer'
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation, Autoplay } from "swiper/modules";
 
 const SolarPanel = () => {
 
@@ -9,24 +12,41 @@ const SolarPanel = () => {
         window.scrollTo(0, 0);
     }, []);
 
+ const slideImages = [
+    "/banner/13.jpg",
+    "/banner/1.jpg",
+    "/banner/15.jpg",
+  ];
 
     return (
 
         <>
             <Header />
-            <div className='relative h-[40vh] md:h-[60vh] w-full'>
-                <div className='relative w-full h-[40vh] md:h-[60vh] flex items-center justify-center'>
-            <img className='w-full h-full object-cover' src='/solar-panel/1.jpg' />
-            </div>
-
-            <div className='inset-0 z-30 bg-black/70 md:bg-black/80 absolute'></div>
-
-            <div className='inset-0 z-40 absolute flex items-center justify-center'>
-                <h1 className='text-center text-2xl sm:text-4xl lg:text-4xl text-bold xl:text-6xl pb-1 text-[rgb(37,83,177)]'>Solar Panel & Structure</h1>
-
-            </div>
-
-            </div>
+            <div className="w-full relative">
+                  <Swiper
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                    loop={true}
+                    modules={[Navigation, Autoplay]}
+                    className="w-full h-[300px] sm:h-[400px] md:h-[600px]"
+                  >
+                    {slideImages.map((img, index) => (
+                      <SwiperSlide key={index}>
+                        <div className="relative w-full h-full">
+                          <img
+                            src={img}
+                            alt={`Slide ${index + 1}`}
+                            className="w-full h-full object-cover"
+                          />
+                          <div className="absolute inset-0 bg-black/30 bg-opacity-40 flex items-center justify-center">
+                            <h1 className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold">
+                               SOLAR STRUCTURE & PANEL INSTALLATION
+                            </h1>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
 
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 

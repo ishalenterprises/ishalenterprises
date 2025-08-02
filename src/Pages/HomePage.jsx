@@ -9,16 +9,20 @@ import PotfolioAndGallery from '../Components/PotfolioAndGallery'
 import Partners from '../Components/Partners'
 import Achievements from '../Components/Achievements'
 import ContactBanner from '../Components/ContactBanner'
+import OurCapability from '../Components/OurCapability'
+import CoreValues from '../Components/CoreValues'
 
 const HomePage = () => {
   return (
     <>
     <Header />
     <Banner />
-    <About />
+    <OurCapability />
+    {/* <About /> */}
     <Services />
     <WhyMe />
-    <PotfolioAndGallery />
+    <CoreValues />
+    {/* <PotfolioAndGallery /> */}
     <Achievements />
     <Partners />
     {/* <ContactBanner /> */}
