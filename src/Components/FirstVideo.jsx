@@ -9,7 +9,7 @@ const FirstVideo = () => {
         <div className="text-white text-center md:text-left max-w-full md:max-w-lg lg:max-w-2xl xl:max-w-3xl">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-1 md:mb-2 lg:mb-4">We Provide Best Services</h2>
           <p className="text-sm md:text-base lg:text-lg text-gray-300">
-            At Ishaal Enterprises, our extensive experience in infrastructure and telecom deployments positions us uniquely for delivering reliable solar solutions. We understand the energy challenges faced across remote and urban areas of Pakistan, and we specialize in deploying solar-powered systems tailored for telecom towers and infrastructure sites. With a commitment to quality, sustainability, and innovation, our team ensures efficient, cost-effective, and long-lasting solar installations that reduce operational costs and carbon footprint—making us the trusted choice for energy-smart telecom and construction projects.
+            At Ishal Enterprises, our extensive experience in infrastructure and telecom deployments positions us uniquely for delivering reliable solar solutions. We understand the energy challenges faced across remote and urban areas of Pakistan, and we specialize in deploying solar-powered systems tailored for telecom towers and infrastructure sites. With a commitment to quality, sustainability, and innovation, our team ensures efficient, cost-effective, and long-lasting solar installations that reduce operational costs and carbon footprint—making us the trusted choice for energy-smart telecom and construction projects.
           </p>
         </div>
 

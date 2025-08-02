@@ -11,7 +11,7 @@ const About = () => {
         <div className='w-full md:w-1/2 h-full flex flex-col'>
           <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(37,83,177)]'>About Us</h1>
 
-          <p className='pt-2 lg:text-base text-gray-600'><strong>Ishaal Enterprises,</strong> Founded in January 2010, Ishaal Enterprises has steadily evolved into one of Pakistan’s most reliable names in telecom infrastructure, construction, and maintenance services. From humble beginnings to executing large scale nationwide projects, we have proudly expanded our reach from Chitral in the North to Karachi in the South, including some of the most complex and security challenged terrains such as Khuzdar, Jamshoro, Sehwan, Hyederabad, Nooriabad,  and Tharparkar.
+          <p className='pt-2 lg:text-base text-gray-600'><strong>Ishal Enterprises,</strong> Founded in January 2010, Ishal Enterprises has steadily evolved into one of Pakistan’s most reliable names in telecom infrastructure, construction, and maintenance services. From humble beginnings to executing large scale nationwide projects, we have proudly expanded our reach from Chitral in the North to Karachi in the South, including some of the most complex and security challenged terrains such as Khuzdar, Jamshoro, Sehwan, Hyederabad, Nooriabad,  and Tharparkar.
             </p>
 
             <p className='pt-2 lg:text-base text-gray-600'>

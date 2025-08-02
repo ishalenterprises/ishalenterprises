@@ -31,7 +31,7 @@ const InfrastructureWork = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 text-lg md:text-lg'><strong>Ishaal Enterprises,</strong> we are proud to be at the forefront of Pakistan’s telecom and civil infrastructure development. Our Infrastructure Work services are critical in enabling digital connectivity and supporting the growing demands of modern communication networks across the country.
+                    <p className='pt-2 text-lg md:text-lg'><strong>Ishal Enterprises,</strong> we are proud to be at the forefront of Pakistan’s telecom and civil infrastructure development. Our Infrastructure Work services are critical in enabling digital connectivity and supporting the growing demands of modern communication networks across the country.
                     </p>
 
                     <p className='pt-2 text-lg md:text-lg'>Since our establishment, we have successfully delivered infrastructure solutions in both urban centers and remote, challenging terrains — from the mountains of Chitral to the deserts of Tharparkar and the coastal regions of Karachi. Our deep understanding of the terrain, combined with technical expertise, allows us to execute projects that are both robust and sustainable.
@@ -88,7 +88,7 @@ const InfrastructureWork = () => {
                     </div>
 
                     <div className='flex'>
-                        <p>At Ishaal Enterprises, our goal is to build smart, reliable, and future-ready infrastructure that powers seamless communication and digital inclusion for all. Whether you're a telecom operator, government body, or enterprise looking to expand your network, we offer customized infrastructure solutions that meet your strategic goals.</p>
+                        <p>At Ishal Enterprises, our goal is to build smart, reliable, and future-ready infrastructure that powers seamless communication and digital inclusion for all. Whether you're a telecom operator, government body, or enterprise looking to expand your network, we offer customized infrastructure solutions that meet your strategic goals.</p>
                     </div>
 
                     

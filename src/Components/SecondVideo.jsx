@@ -22,7 +22,7 @@ const SecondVideo = () => {
 
         {/* Description */}
         <p className="text-gray-300 mt-4 text-center text-sm">
-          At Ishaal Enterprises, we provide high-quality construction solutions tailored to meet the unique needs of every project. From foundation to finish, our experienced team ensures timely delivery, structural integrity, and exceptional craftsmanship.
+          At Ishal Enterprises, we provide high-quality construction solutions tailored to meet the unique needs of every project. From foundation to finish, our experienced team ensures timely delivery, structural integrity, and exceptional craftsmanship.
         </p>
       </div>
     </section>

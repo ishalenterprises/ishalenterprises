@@ -17,7 +17,7 @@ const Services = () => {
                 <Link to='/services/db-sunshade-fabrics' className='flex flex-col rounded-lg items-center bg-gray-100 py-2 md:py-4 px-2 md:px-4 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
                     <img className='w-[22.5rem] pb-4' src='/services/sunshade-db.png' />
                     <h1 className='font-bold text-lg md:text-xl'>DB & Sunshade Fabrics</h1>
-                    <p className='text-sm md:text-base text-gray-600'>At Ishaal Enterprises, we offer expert DB (Distribution Board) fabrication tailored to the specific power distribution needs of telecom and residential projects. Our custom-built DBs ensure safety, reliability, and efficient load management. Additionally, we provide sunshade and shelter fabrication to protect sensitive telecom equipment and electrical setups from harsh weather conditions. Built with durable materials and precision, our solutions are trusted by clients like Zong, Telenor, and PPHI for both performance and longevity.</p>
+                    <p className='text-sm md:text-base text-gray-600'>At Ishal Enterprises, we offer expert DB (Distribution Board) fabrication tailored to the specific power distribution needs of telecom and residential projects. Our custom-built DBs ensure safety, reliability, and efficient load management. Additionally, we provide sunshade and shelter fabrication to protect sensitive telecom equipment and electrical setups from harsh weather conditions. Built with durable materials and precision, our solutions are trusted by clients like Zong, Telenor, and PPHI for both performance and longevity.</p>
 
                 </Link>
                 
@@ -51,7 +51,7 @@ const Services = () => {
                 <Link to='/services/dg-rental' className='flex flex-col rounded-lg items-center bg-gray-100 py-2 md:py-4 px-2 md:px-4 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
                     <img className='w-64 pb-4' src='/services/dg-rental-2.jpg' />
                     <h1 className='font-bold text-lg md:text-xl'>DG Rental</h1>
-                    <p className='text-sm md:text-base text-gray-600'>Ishaal Enterprises provides diesel generator rental services to ensure continuous power supply for telecom sites, commercial operations, and events. Our well-maintained generators are available in various capacities to meet different power needs, especially in areas with unstable or no grid access. Trusted by institutions like SIUT and NBP, our DG rental solutions are reliable, cost-effective, and supported by timely maintenance and technical assistance.</p>
+                    <p className='text-sm md:text-base text-gray-600'>Ishal Enterprises provides diesel generator rental services to ensure continuous power supply for telecom sites, commercial operations, and events. Our well-maintained generators are available in various capacities to meet different power needs, especially in areas with unstable or no grid access. Trusted by institutions like SIUT and NBP, our DG rental solutions are reliable, cost-effective, and supported by timely maintenance and technical assistance.</p>
 
                 </Link>
                 
@@ -88,17 +88,17 @@ const Services = () => {
 
                 </Link>
                 
-                <Link className='flex flex-col rounded-lg items-center bg-gray-100 py-2 md:py-4 px-2 md:px-4 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
+                {/* <Link className='flex flex-col rounded-lg items-center bg-gray-100 py-2 md:py-4 px-2 md:px-4 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
                     <img className='w-64 pb-4' src='/services/sar.jpeg' />
                     <h1 className='font-bold text-lg md:text-xl'>SARs, TSSRs</h1>
                     <p className='text-sm md:text-base text-gray-600'>Ishal Enterprises demonstrates strong proficiency in preparing and managing SARs (Site Acquisition Requests) and TSSRs (Technical Site Survey Reports). These essential documents capture all necessary technical specifications and requirements for new sites, enabling efficient planning and execution of telecom infrastructure projects. Their meticulous documentation supports the smooth progression of complex deployments across Pakistan.</p>
 
-                </Link>
+                </Link> */}
                 
                 <Link to='/services/general-products' className='flex flex-col rounded-lg items-center bg-gray-100 py-2 md:py-4 px-2 md:px-4 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
                     <img className='w-64 pb-4' src='/general-products/main.jpeg' />
                     <h1 className='font-bold text-lg md:text-xl'>General Products Supply</h1>
-                    <p className='text-sm md:text-base text-gray-600'>At Ishaal Enterprises, we provide reliable supply of essential products including uniforms, stationery, stitching tools, furniture, safety equipment, IT accessories, and electronics. With a focus on quality and timely delivery, our general supplies support smooth operations across sectors. Trusted by leading organizations, we ensure every product meets industry standards — aligning with our mission to deliver dependable and cost-effective solutions for everyday needs.</p>
+                    <p className='text-sm md:text-base text-gray-600'>At Ishal Enterprises, we provide reliable supply of essential products including uniforms, stationery, stitching tools, furniture, safety equipment, IT accessories, and electronics. With a focus on quality and timely delivery, our general supplies support smooth operations across sectors. Trusted by leading organizations, we ensure every product meets industry standards — aligning with our mission to deliver dependable and cost-effective solutions for everyday needs.</p>
 
                 </Link>
                 

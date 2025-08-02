@@ -31,7 +31,7 @@ const SiteSurveys = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> we understand that the success of any telecom or infrastructure project begins with selecting the right location. Our Site Survey and Land Acquisition services are designed to support telecom operators, service providers, and government bodies in identifying, evaluating, and acquiring optimal sites that meet technical, regulatory, and commercial requirements.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> we understand that the success of any telecom or infrastructure project begins with selecting the right location. Our Site Survey and Land Acquisition services are designed to support telecom operators, service providers, and government bodies in identifying, evaluating, and acquiring optimal sites that meet technical, regulatory, and commercial requirements.
                     </p>
 
                     <p className='pt-2 md:text-lg'>With over a decade of experience working in both urban and remote areas, we bring unmatched expertise in conducting detailed surveys, ensuring each selected site offers the best possible environment for successful network deployment — whether it’s for a telecom tower, long-haul fiber node, or base station.
@@ -103,7 +103,7 @@ const SiteSurveys = () => {
 
                     <div className='w-full h-full py-4 items-center justify-center'>
                         <div className='flex flex-col gap-2 my-4'>
-                            <h1 className='font-bold text-xl md:text-2xl'>Why Choose Ishaal Enterprises for Land Surveys:</h1>
+                            <h1 className='font-bold text-xl md:text-2xl'>Why Choose Ishal Enterprises for Land Surveys:</h1>
 
                         <ul className='list-disc pl-6'>
                             <li><strong>Extensive Field Experience: </strong>Our surveyors are familiar with complex terrains and local dynamics across Pakistan</li>
@@ -116,7 +116,7 @@ const SiteSurveys = () => {
                     </div>
 
                     <h1 className='font-bold text-xl md:text-2xl pb-2'>Building the First Step Toward Connectivity</h1>
-                    <p>At Ishaal Enterprises, every connection starts with land — and we make sure it's the right one. Whether you're expanding rural networks or scaling urban capacity, our team ensures that your project starts with the best possible site.</p>
+                    <p>At Ishal Enterprises, every connection starts with land — and we make sure it's the right one. Whether you're expanding rural networks or scaling urban capacity, our team ensures that your project starts with the best possible site.</p>
 
                     <strong>Let us help you acquire land with confidence and clarity — so you can focus on building the future.</strong>
                     </div>

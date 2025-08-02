@@ -31,11 +31,11 @@ const SolarPanel = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> our Solar Panel services are designed to meet the growing demand for clean, reliable, and cost-effective energy solutions across Pakistan. With energy needs rising and grid reliability often limited—especially in remote regions—our solar solutions empower telecom sites, homes, institutions, and businesses to operate with uninterrupted, sustainable power.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> our Solar Panel services are designed to meet the growing demand for clean, reliable, and cost-effective energy solutions across Pakistan. With energy needs rising and grid reliability often limited—especially in remote regions—our solar solutions empower telecom sites, homes, institutions, and businesses to operate with uninterrupted, sustainable power.
 
                     <br></br> <br></br>
 
-Backed by technical expertise and a commitment to environmental responsibility, we offer end-to-end solar services, from assessment and design to installation and long-term maintenance. Whether you're looking to reduce energy costs, ensure backup power, or transition toward green energy, Ishaal Enterprises delivers scalable solar systems tailored to your unique requirements.
+Backed by technical expertise and a commitment to environmental responsibility, we offer end-to-end solar services, from assessment and design to installation and long-term maintenance. Whether you're looking to reduce energy costs, ensure backup power, or transition toward green energy, Ishal Enterprises delivers scalable solar systems tailored to your unique requirements.
                     </p>
 
                     <div className='flex items-center justify-center py-2 md:py-4'>
@@ -75,7 +75,7 @@ Backed by technical expertise and a commitment to environmental responsibility, 
                     <div className='grid grid-cols-1 md:grid-cols-2 py-4 md:my-8 items-center justify-center'>
                         <div className='flex flex-col gap-2 my-4 md:my-8'>
                             <h1 className='font-bold text-xl md:text-2xl'>Where We Work</h1>
-                            <p>Ishaal Enterprises has delivered solar solutions in diverse regions of Pakistan, including:</p>
+                            <p>Ishal Enterprises has delivered solar solutions in diverse regions of Pakistan, including:</p>
 
                         <ul className='list-disc pl-6'>
                             <li>Remote and off-grid telecom sites in Tharparkar, Chitral, and Khuzdar</li>
@@ -99,7 +99,7 @@ Backed by technical expertise and a commitment to environmental responsibility, 
 
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-bold text-xl md:text-2xl'>Empowering Tomorrow</h1>
-                        <p>With every solar installation, Ishaal Enterprises moves a step closer to building a more energy-secure and environmentally conscious Pakistan. We’re not just installing panels—we’re creating a future where power is cleaner, cheaper, and always available.</p>
+                        <p>With every solar installation, Ishal Enterprises moves a step closer to building a more energy-secure and environmentally conscious Pakistan. We’re not just installing panels—we’re creating a future where power is cleaner, cheaper, and always available.</p>
                     </div>
 
                     

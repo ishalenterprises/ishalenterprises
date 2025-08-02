@@ -31,7 +31,7 @@ const HomeConstruction = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> we don’t just construct buildings we create safe, comfortable, and lasting homes that reflect your lifestyle and aspirations. With over a decade of experience in the construction industry, we offer complete residential construction and renovation services designed around quality, functionality, and aesthetic excellence.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> we don’t just construct buildings we create safe, comfortable, and lasting homes that reflect your lifestyle and aspirations. With over a decade of experience in the construction industry, we offer complete residential construction and renovation services designed around quality, functionality, and aesthetic excellence.
 
                     <br></br> <br></br>
 Our approach combines modern design principles, skilled craftsmanship, and structural integrity, ensuring that every home we build or renovate meets the unique needs of each client. Whether it's a new build, a structural upgrade, or interior improvements, we take pride in turning your vision into reality—with timely execution and transparent project management.

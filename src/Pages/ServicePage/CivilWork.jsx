@@ -31,7 +31,7 @@ const CivilWork = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> our Civil Work services are the foundation upon which resilient telecom and construction infrastructure is built. With over a decade of experience, we have emerged as a trusted partner for delivering reliable, scalable, and cost-effective civil engineering solutions across Pakistan — from the remote hills of Chitral to the busy urban zones of Karachi.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> our Civil Work services are the foundation upon which resilient telecom and construction infrastructure is built. With over a decade of experience, we have emerged as a trusted partner for delivering reliable, scalable, and cost-effective civil engineering solutions across Pakistan — from the remote hills of Chitral to the busy urban zones of Karachi.
                     </p>
 
                     <p className='pt-2 md:text-lg'>Our commitment to quality, safety, and timely delivery ensures that every project — regardless of its complexity or location — meets the highest industry standards. Whether it's preparing land for telecom towers or constructing control rooms and shelters in remote terrains, our civil work ensures long-lasting performance in even the harshest environments.
@@ -64,7 +64,7 @@ const CivilWork = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 py-4 md:my-8 items-center justify-center'>
                         <div className='flex flex-col gap-2 my-4 md:my-8'>
                             <h1 className='font-bold text-xl md:text-2xl'>Where We Work</h1>
-                            <p>Ishaal Enterprises has delivered civil work projects across all provinces, including:</p>
+                            <p>Ishal Enterprises has delivered civil work projects across all provinces, including:</p>
 
                         <ul className='list-disc pl-6'>
                             <li>The mountainous and remote zones of Chitral</li>
@@ -87,7 +87,7 @@ const CivilWork = () => {
                     </div>
 
                     <div className='flex'>
-                        <p>At Ishaal Enterprises, our goal is to build smart, reliable, and future-ready infrastructure that powers seamless communication and digital inclusion for all. Whether you're a telecom operator, government body, or enterprise looking to expand your network, we offer customized infrastructure solutions that meet your strategic goals.</p>
+                        <p>At Ishal Enterprises, our goal is to build smart, reliable, and future-ready infrastructure that powers seamless communication and digital inclusion for all. Whether you're a telecom operator, government body, or enterprise looking to expand your network, we offer customized infrastructure solutions that meet your strategic goals.</p>
                     </div>
 
                     

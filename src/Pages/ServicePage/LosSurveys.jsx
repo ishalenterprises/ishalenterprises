@@ -31,7 +31,7 @@ const LosSurveys = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> we provide comprehensive Line-of-Sight (LOS) Surveys, Microwave (MW) Planning, and Civil Work (CW) Design services to support the seamless expansion of wireless networks across Pakistan.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> we provide comprehensive Line-of-Sight (LOS) Surveys, Microwave (MW) Planning, and Civil Work (CW) Design services to support the seamless expansion of wireless networks across Pakistan.
                     </p>
 
                     <p className='pt-2 md:text-lg'>These specialized services are critical to the accurate planning, cost-efficiency, and long-term success of telecom infrastructure, especially in remote and challenging regions where physical connectivity is limited.

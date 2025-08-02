@@ -31,7 +31,7 @@ const DBAndSunshade = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> we understand the critical role that electrical distribution and equipment protection play in telecom and infrastructure projects. That’s why we offer custom DB (Distribution Board) fabrication and sunshade/shelter fabrication services—engineered for reliability, safety, and long-term performance.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> we understand the critical role that electrical distribution and equipment protection play in telecom and infrastructure projects. That’s why we offer custom DB (Distribution Board) fabrication and sunshade/shelter fabrication services—engineered for reliability, safety, and long-term performance.
 
                     <br></br> <br></br>
 
@@ -89,7 +89,7 @@ Whether it’s for a remote telecom site, a high-load commercial facility, or a 
 
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-bold text-xl md:text-2xl'>Fabrication You Can Trust</h1>
-                        <p>At Ishaal Enterprises, our fabrication services are more than just metalwork—they’re a commitment to safety, precision, and reliability. Whether powering a network or protecting sensitive equipment, our DBs and shelters are built to perform and last.</p>
+                        <p>At Ishal Enterprises, our fabrication services are more than just metalwork—they’re a commitment to safety, precision, and reliability. Whether powering a network or protecting sensitive equipment, our DBs and shelters are built to perform and last.</p>
                     </div>
 
                     

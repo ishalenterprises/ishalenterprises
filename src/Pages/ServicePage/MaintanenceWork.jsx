@@ -31,7 +31,7 @@ const MaintanenceWork = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> we believe that building infrastructure is only the beginning — maintaining it is what ensures long-term reliability, safety, and performance. Our Maintenance Work services are designed to keep telecom and civil infrastructure operating at peak efficiency, minimizing downtime and extending asset life.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> we believe that building infrastructure is only the beginning — maintaining it is what ensures long-term reliability, safety, and performance. Our Maintenance Work services are designed to keep telecom and civil infrastructure operating at peak efficiency, minimizing downtime and extending asset life.
                     </p>
 
                     <p className='pt-2 md:text-lg'>We provide preventive, corrective, and emergency maintenance solutions tailored for telecom towers, power systems, shelters, fiber networks, and site facilities across both urban centers and remote regions of Pakistan.

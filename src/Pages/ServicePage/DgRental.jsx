@@ -31,7 +31,7 @@ const DgRental = () => {
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pb-4 py-4 md:py-6 lg:pb-8 px-2 md:px-12 lg:px-28'>
 
                 <div className='w-full h-full flex flex-col'>
-                    <p className='pt-2 md:text-lg'><strong>Ishaal Enterprises,</strong> our DG Rental Services ensure that businesses, telecom sites, and infrastructure projects across Pakistan never have to face downtime due to power outages. We provide diesel generators on rent, available in a wide range of capacities to meet the needs of telecom operators, construction sites, hospitals, and commercial facilities.
+                    <p className='pt-2 md:text-lg'><strong>Ishal Enterprises,</strong> our DG Rental Services ensure that businesses, telecom sites, and infrastructure projects across Pakistan never have to face downtime due to power outages. We provide diesel generators on rent, available in a wide range of capacities to meet the needs of telecom operators, construction sites, hospitals, and commercial facilities.
 
                     <br></br> <br></br>
 Whether it’s a temporary solution during site development or a long-term requirement in remote, off-grid locations — our ready-to-deploy DG units are maintained to the highest standards of fuel efficiency, safety, and runtime reliability.

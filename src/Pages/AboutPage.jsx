@@ -21,7 +21,7 @@ const AboutPage = () => {
                 <div className='w-full md:w-4/5 h-full flex flex-col'>
                     <h1 className='text-3xl sm:text-4xl lg:text-4xl text-bold xl:text-5xl pb-1 text-[rgb(37,83,177)]'>About Us</h1>
 
-                    <p className='pt-2 text-sm md:text-base text-gray-600'><strong>Ishaal Enterprises, verified by ISO</strong> was founded in Jan <strong>2010</strong>, We commenced operations in 2010 and did multiples sites
+                    <p className='pt-2 text-sm md:text-base text-gray-600'><strong>Ishal Enterprises, verified by ISO</strong> was founded in Jan <strong>2010</strong>, We commenced operations in 2010 and did multiples sites
                         while in January 2021 upon signing with one of Pakistan’s largest telcos for deploying <strong>telecom towers,
                         alongside the Sanghar under the NOKIA USF project.</strong> At the same time, we acquired CMPAK
                         longhaul FTTS South region sites including Sindh & Balochistan, marking a significant milestone in
