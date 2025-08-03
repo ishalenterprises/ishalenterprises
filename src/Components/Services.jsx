@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     return (
         <>
-        <div className='w-full flex flex-col my-4 md:my-6 px-4 sm:px-3 md:px-8 items-center'>
+        <div className='w-full flex flex-col my-20 my-16 px-4 sm:px-3 md:px-8 items-center'>
             {/* <div className='flex gap-2 w-full'>
             <hr class="h-px my-5 sm:my-6 md:my-5 lg:my-6 bg-[rgb(37,83,177)] border-1 w-1/2 md:w-full text-[rgb(37,83,177)]" />
             <h1 className='font-bold text-2xl w-full sm:text-4xl md:text-3xl lg:text-4xl text-bold text-center pb-8 text-[rgb(37,83,177)]'>Our Services</h1>
@@ -83,8 +83,8 @@ const Services = () => {
                 
                 <Link to='/services/maintanence-work' className='flex flex-col rounded-lg bg-gray-100 py-2 md:py-4 px-2 md:px-4 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)]'>
                     <img className='w-96 pb-4' src='/services/maintanence-work.jpeg' />
-                    <h1 className='text-lg text-[rgb(38,50,70)] md:text-[22px]'>Maintanence Work</h1>
-                    <p className='text-sm md:text-base text-gray-600'>Ishal Enterprises provides extensive maintenance work services, ensuring the continuous and reliable operation of vital telecommunications infrastructure. Their commitment to excellence and efficiency, as highlighted in their mission, translates into proactive and reactive maintenance strategies. This minimizes downtime, prolongs equipment lifespan, and ensures consistent network performance for uninterrupted connectivity.</p>
+                    <h1 className='text-lg text-[rgb(38,50,70)] md:text-[22px]'>Telecom Solutions & Services</h1>
+                    <p className='text-sm md:text-base text-gray-600'>Ishal Enterprises provides extensive telecom work services, ensuring the continuous and reliable operation of vital telecommunications infrastructure. Their commitment to excellence and efficiency, as highlighted in their mission, translates into proactive and reactive maintenance strategies. This minimizes downtime, prolongs equipment lifespan, and ensures consistent network performance for uninterrupted connectivity.</p>
 
                 </Link>
                 

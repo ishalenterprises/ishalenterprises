@@ -11,15 +11,15 @@ const OurCapability = () => {
     Our Capability
   </h1>
 
-  <p className='pt-2 lg:text-base text-gray-600'>
+  <p className='pt-2 text-sm md:text-base text-gray-600'>
     <strong>Ishal Enterprises,</strong> verified by ISO, offering specialized services in telecom infrastructure, civil construction, and energy solutions. Since its establishment in 2010, Ishaal Enterprises has built a strong reputation for delivering reliable, end-to-end engineering services across Pakistan.
   </p>
 
-  <p className='pt-2 lg:text-base text-gray-600'>
+  <p className='pt-2 text-sm md:text-base text-gray-600'>
     Our proven expertise, nationwide reach, and commitment to quality make us a trusted partner for clients across both public and private sectors. Our consistent performance, even in complex and remote locations, has earned us long-term partnerships and continuous project engagements.
   </p>
 
-  <p className='pt-2 lg:text-base text-gray-600'>
+  <p className='pt-2 text-sm md:text-base text-gray-600'>
     We support every stage of infrastructure development—from survey and planning to execution and long-term maintenance. Whether it’s telecom rollouts, solar installations, or backup power solutions, we take complete ownership of our role and ensure timely, cost-effective, and sustainable results. Our capabilities also extend to residential construction, custom fabrication, and the supply of essential goods and equipment.
   </p>
 </div>

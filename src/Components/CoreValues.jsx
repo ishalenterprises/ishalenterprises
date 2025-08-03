@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const CoreValues = () => {
     return (
         <>
-        <div className='w-full flex flex-col bg-gray-100 my-4 md:py-24 px-4 sm:px-3 md:px-28 items-center'>
+        <div className='w-full flex flex-col bg-gray-100 my-6 md:my-10 py-20 md:py-24 px-4 sm:px-3 md:px-28 items-center'>
              <h1 className='text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-bold xl:text-5xl pb-4 text-center text-[rgb(37,83,177)]'>
     CORE VALUES
   </h1>

@@ -4,19 +4,51 @@ import CoreValues from '../Components/CoreValues';
 import Footer from '../Components/Footer'
 import Statistics from '../Components/Statistics';
 import OrganizationHierarcy from '../Components/OrganizationHierarcy';
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation, Autoplay } from "swiper/modules";
 
 const AboutPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
+const slideImages = [
+    "/about/about-1.jpg",
+  ];
 
     return (
 
         <>
             <Header />
+            <div className="w-full relative">
+      <Swiper
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        loop={true}
+        modules={[Navigation, Autoplay]}
+        className="w-full h-[300px] sm:h-[400px] md:h-[600px]"
+      >
+        {slideImages.map((img, index) => (
+          <SwiperSlide key={index}>
+            <div className="relative w-full h-full">
+              <img
+                src={img}
+                alt={`Slide ${index + 1}`}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-black/30 bg-opacity-40 flex items-center justify-center">
+                <h1 className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold">
+                   ABOUT US
+                </h1>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+
+
             <div className='w-full md:min-h-screen flex flex-col gap-2 md:gap-4 pt-10 md:pt-8 px-4 md:px-6 md:px-8 lg:px-8 items-center justify-center'>
 
                 <div className='w-full md:w-4/5 h-full flex flex-col'>
