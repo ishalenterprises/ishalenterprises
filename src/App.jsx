@@ -14,6 +14,8 @@ import DBAndSunshade from './Pages/ServicePage/DBAndSunshade'
 import HomeConstruction from './Pages/ServicePage/HomeConstruction'
 import DgRental from './Pages/ServicePage/DgRental'
 import GeneralProducts from './Pages/ServicePage/GeneralProducts'
+import Gallery from './Pages/MediaPage.jsx/Gallery'
+import IsoCertificates from './Pages/MediaPage.jsx/IsoCertificates'
 
 function App() {
 
@@ -28,12 +30,15 @@ function App() {
         <Route path='/services/civil-work' element = {<CivilWork />} />
         <Route path='/services/site-surveys' element = {<SiteSurveys />} />
         <Route path='/services/losrs-surveys' element = {<LosSurveys />} />
-        <Route path='/services/maintanence-work' element = {<MaintanenceWork />} />
+        <Route path='/services/telecom' element = {<MaintanenceWork />} />
         <Route path='/services/solar-work' element = {<SolarPanel />} />
         <Route path='/services/db-sunshade-fabrics' element = {<DBAndSunshade />} />
         <Route path='/services/home-construction-renovation' element = {<HomeConstruction />} />
         <Route path='/services/dg-rental' element = {<DgRental />} />
         <Route path='/services/general-products' element = {<GeneralProducts />} />
+        <Route path='/media/gallery' element = {<Gallery />} />
+        <Route path='/media/iso-certificates' element = {<IsoCertificates />} />
+
       </Routes>
     </>
   )

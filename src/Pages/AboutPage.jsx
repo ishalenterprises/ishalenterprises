@@ -157,9 +157,9 @@ const slideImages = [
             <div className='w-full flex flex-col my-24 md:flex-row gap-2 md:gap-10 pt-4 md:pt-0 lg:pb-8 px-2 md:px-20 lg:px-40'>
 
                 <div className='w-full justify-center flex flex-col'>
-                    <h1 className='text-lg md:text-xl lg:text-3xl text-bold xl:text-[44px] pb-1 text-[rgb(37,83,177)]'>Our Mission</h1>
+                    <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold pb-1 text-[rgb(37,83,177)]'>Our Mission</h1>
 
-                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>To deliver innovative, reliable, and high-quality engineering and telecom solutions through advanced technologies, skilled professionals, and a commitment to excellence.
+                    <p className='pt-1 text-sm md:text-base lg:text-xl text-gray-600'>To deliver innovative, reliable, and high-quality engineering and telecom solutions through advanced technologies, skilled professionals, and a commitment to excellence.
 We aim to support our clients' growth by providing sustainable infrastructure, clean energy systems, and efficient project management—ensuring value, trust, and long-term impact in every project we undertake
                     </p>
 
@@ -178,7 +178,7 @@ We aim to support our clients' growth by providing sustainable infrastructure, c
                 
             </div>
             
-            <div className='w-full flex bg-gray-100 py-6 md:py-14 flex-col mb-12 md:flex-row gap-2 md:gap-10 px-2 md:px-20 lg:px-40'>
+            <div className='w-full flex bg-gray-100 py-20 md:py-14 flex-col mb-12 md:flex-row gap-2 md:gap-10 px-2 md:px-20 lg:px-40'>
 
                <div className='w-full max-h-full flex gap-3 items-center justify-start'>
 
@@ -192,9 +192,9 @@ We aim to support our clients' growth by providing sustainable infrastructure, c
                 </div>
 
                 <div className='w-full  justify-center flex flex-col'>
-                    <h1 className='text-lg md:text-xl lg:text-3xl text-bold xl:text-[44px] pb-1 text-[rgb(37,83,177)]'>Our Vision</h1>
+                    <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold  pb-1 text-[rgb(37,83,177)]'>Our Vision</h1>
 
-                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>To be a leading force in engineering, telecom, and sustainable infrastructure solutions—empowering communities, transforming industries, and building a connected, innovative, and energy-efficient future across Pakistan and beyond.
+                    <p className='pt-1 text-sm md:text-base lg:text-xl text-gray-600'>To be a leading force in engineering, telecom, and sustainable infrastructure solutions—empowering communities, transforming industries, and building a connected, innovative, and energy-efficient future across Pakistan and beyond.
                     </p>
 
                 </div>
@@ -217,9 +217,9 @@ We aim to support our clients' growth by providing sustainable infrastructure, c
                 </div>
 
                 <div className='w-full  justify-center flex flex-col'>
-                    <h1 className='text-lg md:text-xl lg:text-3xl text-bold xl:text-[44px] pb-1 text-[rgb(37,83,177)]'>Future</h1>
+                    <h1 className='text-3xl text-center md:text-start md:text-2xl lg:text-[44px] font-bold  pb-1 text-[rgb(37,83,177)]'>Future</h1>
 
-                    <p className='pt-1 text-sm md:text-base lg:text-lg text-gray-600'>Ishaal Enterprises is focused on expanding its role in Pakistan’s infrastructure and energy landscape by embracing innovation and sustainability. We aim to grow beyond telecom into areas like solar energy, smart construction, and digital infrastructure—bringing reliable, cost-effective solutions to both urban and remote regions.
+                    <p className='pt-1 text-sm md:text-base lg:text-xl text-gray-600'>Ishaal Enterprises is focused on expanding its role in Pakistan’s infrastructure and energy landscape by embracing innovation and sustainability. We aim to grow beyond telecom into areas like solar energy, smart construction, and digital infrastructure—bringing reliable, cost-effective solutions to both urban and remote regions.
                     </p>
                     
                     <p className='pt-2 md:pt-4 text-sm md:text-base lg:text-lg text-gray-600'>In the coming years, we plan to invest in modern technologies, skilled talent, and smart engineering practices. Our goal is to drive national progress through efficient project delivery, clean energy adoption, and inclusive development—building a smarter, stronger, and more connected Pakistan.

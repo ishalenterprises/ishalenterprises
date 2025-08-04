@@ -6,16 +6,15 @@ import { MdSupportAgent } from "react-icons/md";
 const WhyMe = () => {
   return (
     <>
-      <div className='w-full flex flex-col my-4 md:my-6 px-4 sm:px-3 md:px-8 items-center'>
-        <div className='flex gap-2 w-full py-4 md:py-8'>
-            <hr class="h-px my-5 sm:my-6 md:my-5 lg:my-6 bg-[rgb(37,83,177)] border-1 w-1/2 md:w-full text-[rgb(37,83,177)]" />
-            <h1 className='font-bold text-2xl w-full sm:text-4xl md:text-3xl lg:text-4xl text-bold text-center pb-8 text-[rgb(37,83,177)]'>Industry Focus</h1>
-            <hr class="h-px my-5 sm:my-6 md:my-5 lg:my-6 bg-[rgb(37,83,177)] border-1 w-1/2 md:w-full text-[rgb(37,83,177)]" />
+      <div className='w-full flex flex-col my-4 md:my-14 px-4 sm:px-3 md:px-8 items-center'>
 
-            </div>
+            <h1 className='font-bold text-2xl w-full sm:text-4xl md:text-3xl lg:text-4xl text-bold text-center pb-3 md:pb-5 text-[rgb(37,83,177)]'>Industry Focus</h1>
+
+            <div className="w-24 h-1 bg-[rgb(37,83,177)] rounded mb-6 md:mb-10"></div>
+
 
         {/* For mobile and xl */}
-        <div className='flex flex-col md:hidden xl:flex xl:flex-row mx-4 md:mx-0 gap-4 md:gap-4 lg:gap-8 pb-4'>
+        <div className='flex flex-col md:hidden xl:flex xl:flex-row mx-4 md:mx-0 gap-4 md:gap-4 lg:gap-8 pb-4 md:pb-14'>
 
           {/* Box 1 */}
           <div className='relative flex flex-col w-full xl:w-[18rem] mb-3 md:mb-0 shadow-[0_0_8px_8px_rgba(28,38,39,0.1)] md:shadow-[0_0_5px_5px_rgba(28,38,39,0.08)] items-center px-4 py-6 bg-gray-100 rounded-sm'>
@@ -59,7 +58,7 @@ const WhyMe = () => {
         </div>
 
         {/* For lg devices */}
-        <div className='hidden md:flex flex-col xl:hidden gap-4 md:gap-8 lg:gap-8 pt-4 md:pt-8 pb-4'>
+        <div className='hidden md:flex flex-col xl:hidden gap-4 md:gap-8 lg:gap-8 py-8 md:py-16 pb-4'>
 
           <div className='flex gap-8'>
             {/* Box 1 */}

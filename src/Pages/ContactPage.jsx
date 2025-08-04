@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import Contact from '../Components/Contact'
+import GoogleMaps from '../Components/GoogleMaps';
 
 
 const ContactPage = () => {
@@ -13,6 +14,7 @@ const ContactPage = () => {
     <>
     <Header />
     <Contact />
+    <GoogleMaps />
     <Footer />
     </>
   )
