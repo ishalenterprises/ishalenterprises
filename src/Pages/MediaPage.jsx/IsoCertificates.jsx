@@ -5,6 +5,9 @@ import Footer from '../../Components/Footer';
 
 
 const IsoCertificates = () => {
+    useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
     return (
         <>
         <Header />
