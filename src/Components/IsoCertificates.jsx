@@ -38,9 +38,9 @@ const IsoCertificates = () => {
         </div>
 
         <div className='flex px-10 py-8 grid grid-cols-1 md:grid-cols-3'>
-            <img src='/iso-certificates/iso-9001.jpg' />
-            <img src='/iso-certificates/iso-14001.jpg' />
-            <img src='/iso-certificates/iso-45001.jpg' />
+            <img src='/iso-9001.jpg' />
+            <img src='/iso-14001.jpg' />
+            <img src='/iso-45001.jpg' />
             
             
         </div>
